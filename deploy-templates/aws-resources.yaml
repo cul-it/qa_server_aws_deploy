@@ -51,11 +51,11 @@ Resources:
         BlockPublicPolicy: true
         IgnorePublicAcls: true
         RestrictPublicBuckets: true
-        Tags:
-          - Key: "Cost Center"
-            Value: !Ref TagCostCenter
-          - Key: "Application"
-            Value: !Ref TagApplication
+      Tags:
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
   Filesystem:
     Type: AWS::EFS::FileSystem
     Properties: 
