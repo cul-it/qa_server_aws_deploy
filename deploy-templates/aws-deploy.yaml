@@ -195,8 +195,8 @@ Resources:
       Cluster: !Join ["", [!Ref AWS::StackName, "-cluster"]]
       DeploymentConfiguration: 
         MaximumPercent: 200
-        MinimumHealthyPercent: 100
-      DesiredCount: 2
+        MinimumHealthyPercent: 0
+      DesiredCount: 0
       EnableECSManagedTags: true
       HealthCheckGracePeriodSeconds: 0
       LaunchType: "EC2"
