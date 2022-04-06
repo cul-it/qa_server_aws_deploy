@@ -418,8 +418,9 @@ Resources:
               'ecr:BatchCheckLayerAvailability', 'ecr:GetDownloadUrlForLayer',
               'ecr:BatchGetImage', 'logs:CreateLogStream', 'logs:PutLogEvents']
             Resource: '*'
-#  If you would rather use the AWS managed policy than the above custom policy, use this:
-#      ManagedPolicyArns:
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore'
+# The following managed policy is an alternative to the custom policy
 #        - 'arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role'
   AutoscalingRole:
     Type: AWS::IAM::Role
