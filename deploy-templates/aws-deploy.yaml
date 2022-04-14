@@ -2,10 +2,10 @@ AWSTemplateFormatVersion: "2010-09-09"
 Description: >
   1. Make a copy of deploy-parameters.env.example and rename it to deploy-parameters.env, then populate it with the values appropriate to your environment. CloudFormation will read those values from the file if you pass it on the command line when you create or update the stack. See the parameter definitions below for full instructions.
   2. Navigate to the directory that contains these files and run the following aws cli command:
-  aws cloudformation create-stack --stack-name qa-server \
+  aws cloudformation create-stack --stack-name lookup-int-deploy \
       --profile qa-user \
       --template-body file://./aws-deploy.yaml \
-      --parameters file://./deploy-parameters.env \
+      --parameters file://./deploy-int.env \
       --role-arn arn:aws:iam::<your_account_id>:role/qa-role \
       --capabilities CAPABILITY_NAMED_IAM
   3. You will need to validate the ACM certificate after the stack has been created, by creating the DNS record that will appear in the CloudFormation and ACM consoles.
@@ -42,6 +42,10 @@ Parameters:
     Type: String
     Default: ''
     Description: EFS Access Point ID of the volume where the authority files are stored. This will map to the application's authority file volume, and it should contain at least one authority file. If no authority files are found, the application will still launch, and static portions will display, but the Authorities, Check Status, and Monitor Status pages may behave unpredictably.
+  LocalesAccessPointId:
+    Type: String
+    Default: ''
+    Description: EFS Access Point ID of the volume where the locale files are stored. This will map to the application's locales file volume, and it should contain at least one locale file. If no locale files are found, the application will still launch, and static portions will display, but the appearance may be unpredictable.
   DatabaseAccessPointId:
     Type: String
     Default: ''
@@ -100,6 +104,8 @@ Resources:
           MountPoints: 
             - SourceVolume: qa-server-authorities
               ContainerPath: /app/ld4p/qa_server-webapp/config/authorities
+            - SourceVolume: qa-server-locales
+              ContainerPath: /app/ld4p/qa_server-webapp/config/locales
           PortMappings: 
             - HostPort: 3000
               Protocol: tcp
@@ -138,6 +144,13 @@ Resources:
             FilesystemId: !Ref VolumeId
             AuthorizationConfig: 
               AccessPointId: !Ref AuthorityAccessPointId
+            RootDirectory: "/"
+            TransitEncryption: ENABLED
+        - Name: qa-server-locales
+          EFSVolumeConfiguration:
+            FilesystemId: !Ref VolumeId
+            AuthorizationConfig: 
+              AccessPointId: !Ref LocalesAccessPointId
             RootDirectory: "/"
             TransitEncryption: ENABLED
         - Name: db-mysql-data
