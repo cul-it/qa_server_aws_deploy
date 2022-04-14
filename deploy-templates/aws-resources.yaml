@@ -246,9 +246,9 @@ Outputs:
     Value: !Ref Filesystem
   AuthorityAccessPointId:
     Value: !Ref AuthorityAccessPoint
+  LocalesAccessPointId:
+    Value: !Ref LocalesAccessPoint
   DatabaseAccessPointId:
     Value: !Ref DatabaseAccessPoint
   S3ToEfsTaskAuthorities:
     Value: !Ref S3ToEfsTaskAuthorities
-  S3ToEfsTaskLocales:
-    Value: !Ref S3ToEfsTaskLocales
