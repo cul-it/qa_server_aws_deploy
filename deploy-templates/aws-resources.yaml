@@ -121,19 +121,25 @@ Resources:
         Gid: 0
         Uid: 0
       RootDirectory: 
-        Path: "/authorities"
+        Path: "/config/authorities"
   LocalesAccessPoint:
     Type: AWS::EFS::AccessPoint
     Properties: 
       AccessPointTags: 
         - Key: "Name"
           Value: !Ref EFSLocalesAccessPoint
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
+        - Key: "Environment"
+          Value: !Ref TagEnvironment
       FileSystemId: !Ref Filesystem
       PosixUser:
         Gid: 0
         Uid: 0
       RootDirectory: 
-        Path: "/locales"
+        Path: "/config/locales"
   DatabaseAccessPoint:
     Type: AWS::EFS::AccessPoint
     Properties: 
@@ -156,7 +162,7 @@ Resources:
     Type: AWS::DataSync::LocationEFS
     Properties:
       EfsFilesystemArn: !Sub arn:${AWS::Partition}:elasticfilesystem:${AWS::Region}:${AWS::AccountId}:file-system/${Filesystem}
-      Subdirectory: "/authorities"
+      Subdirectory: "/config/authorities"
       Ec2Config:
         SecurityGroupArns:
           - !Sub arn:${AWS::Partition}:ec2:${AWS::Region}:${AWS::AccountId}:security-group/${NFSSecurityGroup}
@@ -165,7 +171,7 @@ Resources:
     Type: AWS::DataSync::LocationEFS
     Properties:
       EfsFilesystemArn: !Sub arn:${AWS::Partition}:elasticfilesystem:${AWS::Region}:${AWS::AccountId}:file-system/${Filesystem}
-      Subdirectory: "/locales"
+      Subdirectory: "/config/locales"
       Ec2Config:
         SecurityGroupArns:
           - !Sub arn:${AWS::Partition}:ec2:${AWS::Region}:${AWS::AccountId}:security-group/${NFSSecurityGroup}

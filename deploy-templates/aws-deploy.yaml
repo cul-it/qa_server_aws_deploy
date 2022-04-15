@@ -2,11 +2,11 @@ AWSTemplateFormatVersion: "2010-09-09"
 Description: >
   1. Make a copy of deploy-parameters.env.example and rename it to deploy-parameters.env, then populate it with the values appropriate to your environment. CloudFormation will read those values from the file if you pass it on the command line when you create or update the stack. See the parameter definitions below for full instructions.
   2. Navigate to the directory that contains these files and run the following aws cli command:
-  aws cloudformation create-stack --stack-name lookup-int-deploy \
+  aws cloudformation update-stack --stack-name lookup-int-deploy \
       --profile qa-user \
       --template-body file://./aws-deploy.yaml \
       --parameters file://./deploy-int.env \
-      --role-arn arn:aws:iam::<your_account_id>:role/qa-role \
+      --role-arn arn:aws:iam::092831676293:role/qa-service-cloudformation-role \
       --capabilities CAPABILITY_NAMED_IAM
   3. You will need to validate the ACM certificate after the stack has been created, by creating the DNS record that will appear in the CloudFormation and ACM consoles.
   
@@ -520,7 +520,7 @@ Outputs:
   Cluster:
     Value: !Ref 'EcsCluster'
   LoadBalancer:
-    Description: Your Load Balancer's URL. Create a DNS record for {!Ref DomainName} that points to this location.
+    Description: Your Load Balancer's URL. Create a DNS record for your app's domain that points to this location.
     Value: !Join ['', [!GetAtt [LoadBalancer, DNSName]]]
   TaskDefinition:
     Value: !Ref 'TaskDefinition'
