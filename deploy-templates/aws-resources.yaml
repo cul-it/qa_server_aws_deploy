@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description: >
   1. Review the parameters below and ensure that they are appropriate to your environment. Then deploy with this aws cli command:
-    aws cloudformation update-stack --stack-name lookup-int-resources \
+    aws cloudformation create-stack --stack-name lookup-int-resources \
         --profile qa-user \
         --template-body file://./aws-resources.yaml \
         --parameters file://./resources-int.env \
@@ -90,7 +90,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties: 
       GroupDescription: "Permit access over port 2049"
-      GroupName: !Ref EFSName
+      GroupName: !Join ["", [!Ref EFSName, "-NFS"]]
       SecurityGroupEgress: 
         - CidrIp: 0.0.0.0/0
           Description: Wide open to the world
@@ -121,6 +121,10 @@ Resources:
         Gid: 0
         Uid: 0
       RootDirectory: 
+        CreationInfo:
+          OwnerGid: 0
+          OwnerUid: 0
+          Permissions: 755
         Path: "/config/authorities"
   LocalesAccessPoint:
     Type: AWS::EFS::AccessPoint
@@ -139,6 +143,10 @@ Resources:
         Gid: 0
         Uid: 0
       RootDirectory: 
+        CreationInfo:
+          OwnerGid: 0
+          OwnerUid: 0
+          Permissions: 755
         Path: "/config/locales"
   DatabaseAccessPoint:
     Type: AWS::EFS::AccessPoint
@@ -157,6 +165,10 @@ Resources:
         Gid: 0
         Uid: 0
       RootDirectory: 
+        CreationInfo:
+          OwnerGid: 0
+          OwnerUid: 0
+          Permissions: 755
         Path: "/db-mysql-data"
   EfsLocationAuthorities:
     Type: AWS::DataSync::LocationEFS
