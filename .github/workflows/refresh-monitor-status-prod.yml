@@ -1,0 +1,17 @@
+# Force all aspects of the monitor status page to run.  This is used to refresh
+# the monitor status page when there are failures during the overnight run that
+# were subsequently cleared up.  Normally the tests and stats only run during the
+# night.  The remainder of the time, the values are drawn from a cache.
+name: refresh-monitor-status-prod
+
+on:
+  workflow_dispatch:   # allow for manually running through Actions tab
+
+jobs:
+  refresh_status:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Refresh all tests and stats for the monitor status page
+        run:
+          curl https://qa-server-service.library.cornell.edu/monitor_status{{ secrets.AUTHENTICATE_RELOAD }}&refresh=all

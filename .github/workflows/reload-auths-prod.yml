@@ -1,0 +1,20 @@
+# When syncing of configs from github to S3 is complete and required time passes to
+# allow for syncing of S3 to application, reloads the authorities in the application.
+# See sync-s3-prod.yml for the sync and wait workflow.
+name: reload-auths-prod
+
+on:
+  workflow_dispatch:   # allow for manually running through Actions tab
+#  workflow_run:        # runs when sync-s3-prod completes  -- TURNED OFF --
+#    workflows: ["sync-s3-prod"]
+#    types:
+#      - completed
+
+jobs:
+  reload_auths:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: reload authorities
+        run:
+          curl https://qa-server-service-prod.library.cornell.edu/authorities/reload/linked_data/authorities${{ secrets.AUTHENTICATE_RELOAD }}

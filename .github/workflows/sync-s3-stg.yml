@@ -27,3 +27,11 @@ jobs:
           AWS_REGION: 'us-east-1'
           SOURCE_DIR: 'config'
           DEST_DIR: 'config'
+  wait_one_hour:
+    # reload-auths-stg workflow watches for the end of this workflow before reloading auths in the app
+    needs: s3_update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: technote-space/auto-cancel-redundant-workflow@v1
+      - name: wait-one-hour
+        run: sleep 1h

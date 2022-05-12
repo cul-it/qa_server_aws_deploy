@@ -5,8 +5,11 @@ name: sync-s3-prod
 
 on:
   workflow_dispatch:  # allow for manually running through Actions tab
-  push:
-    branches: [ main ] # auto-run when files in listed paths change in the main branch
+#  push:    -- TURNED OFF --
+#    branches: [ main ] # auto-run when files in listed paths change in the main branch
+#    paths:
+#      - 'config/authorities/**'
+#      - 'config/locales/**'
 
 jobs:
   s3_update:
@@ -24,3 +27,11 @@ jobs:
           AWS_REGION: 'us-east-1'
           SOURCE_DIR: 'config'
           DEST_DIR: 'config'
+#  wait_one_hour: # currently, reload-auths-prod is configured for manual trigger only -- TURNED OFF --
+#    # reload-auths-prod workflow watches for the end of this workflow before reloading auths in the app
+#    needs: s3_update
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: technote-space/auto-cancel-redundant-workflow@v1
+#      - name: wait-one-hour
+#        run: sleep 1h
