@@ -146,7 +146,7 @@ Resources:
           MemoryReservation: 512
           MountPoints: 
             - SourceVolume: db-mysql-data
-              ContainerPath: /var/lib/mysql/data
+              ContainerPath: /var/lib/mysql
           PortMappings: 
             - HostPort: 3306
               Protocol: tcp
