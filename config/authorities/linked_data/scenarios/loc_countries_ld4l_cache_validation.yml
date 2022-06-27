@@ -1,0 +1,59 @@
+# Supported subauthorities: none
+---
+authority:
+  service: ld4l_cache
+  context: true
+search:
+  #------------------
+  # Connection tests
+  #------------------
+  -
+    query: bw
+  -
+    query: Belarus
+ 
+  #------------------
+  #  Accuracy tests
+  #------------------
+  #    active
+  -
+    query: Heard and McDonald Islands
+    position: 5
+    subject_uri: "http://id.loc.gov/vocabulary/countries/hm"
+    replacements:
+      maxRecords: '10'
+  -
+    query: hm
+    position: 3
+    subject_uri: "http://id.loc.gov/vocabulary/countries/hm"
+    replacements:
+      maxRecords: '10'
+  -
+    query: HM
+    position: 10
+    subject_uri: "http://id.loc.gov/vocabulary/countries/hm"
+    replacements:
+      maxRecords: '20'
+  -
+    query: Iraq-Saudi Arabia Neutral Zone
+    position: 3
+    subject_uri: "http://id.loc.gov/vocabulary/countries/iy"
+    replacements:
+      maxRecords: '10'
+  -
+    query: Micronesia (Federated States)
+    position: 5
+    subject_uri: "http://id.loc.gov/vocabulary/countries/fm"
+    replacements:
+      maxRecords: '10'
+  -
+    query: United States Misc. Pacific Islands
+    position: 10
+    subject_uri: "http://id.loc.gov/vocabulary/countries/up"
+    replacements:
+    maxRecords: '20'
+term:
+  -
+    identifier: "http://id.loc.gov/vocabulary/countries/up"
+  -
+    identifier: "http://id.loc.gov/vocabulary/countries/wyu"
