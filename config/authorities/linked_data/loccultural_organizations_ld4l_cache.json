@@ -139,7 +139,7 @@
         {
           "property_label_i18n": "qa.linked_data.authority.loccultural_organizations_ld4l_cache.related",
           "property_label_default": "Related",
-          "ldpath": "skos:narrower :: xsd:string",
+          "ldpath": "skos:related :: xsd:string",
           "selectable": true,
           "drillable": true,
           "expansion_label_ldpath": "skos:prefLabel ::xsd:string",
