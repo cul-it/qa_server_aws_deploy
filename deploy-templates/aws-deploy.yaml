@@ -126,7 +126,7 @@ Resources:
             - Type: s3
               Value: !Join ["", ["arn:aws:s3:::", !Ref S3BucketName, "/", !Ref EnvFileName]]
           Essential: True
-          Image: mariadb:10.7.4
+          Image: mariadb:10.7
           LogConfiguration: 
             LogDriver: awslogs
             Options:
