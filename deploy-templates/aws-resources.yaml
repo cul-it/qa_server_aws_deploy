@@ -12,25 +12,35 @@ Parameters:
   AWSVpcId:
     Type: String
     Default: ''
-    Description: Your AWS VPC ID. It should look like vpc-4d4bec2b. Required for load balancer configuration and security group rules.
+    Description: Your AWS VPC ID. This template will not create a VPC for you, please enter the ID of a VPC that already exists. It should look like vpc-4d4bec2b. Required for load balancer configuration and security group rules.
   SubnetIds:
     Type: List<AWS::EC2::Subnet::Id>
-    Description: Select two subnets in your selected VPC. The values must be separated by commas.
+    Description: Select two subnets in your selected VPC. This template will not create subnets for you, please enter the IDs of two subnets that already exist. The values must be separated by commas, and the two subnets must be in different AZs.
   S3BucketName:
     Type: String
     Default: ''
-    Description: The name you wish your S3 bucket to have. This bucket name must be unique within the entire AWS region, so you will have to change the value provided here to one that is not already in use.
+    Description: The name you wish your S3 bucket to have. This template will create a new bucket with this name. The bucket name must be unique within the entire AWS region, so you will have to change the value provided here to one that is not already in use.
   EFSName:
     Type: String
-    Description: The name you wish your EFS filesystem to have. This name must be unique within your account.
+    Description: The name you wish your EFS filesystem to have. This template will create a new EFS filesystem with this name. This name must be unique within your account.
   EFSAuthoritiesAccessPoint:
     Type: String
     Default: ''
-    Description: The name you wish your EFS authorities access point to have. This will create an access point where your service's authorities files will live. After it is created, you will need to connect to this access point to upload at least one authority file.
+    Description: The name you wish your EFS authorities access point to have. This template will create an access point where your service's authorities files will live. After it is created, you will need to connect to this access point to upload at least one authority file.
   EFSDatabaseAccessPoint:
     Type: String
     Default: ''
-    Description: The name you wish your EFS database access point to have. This will create an access point that the database will use to store its datafiles.
+    Description: The name you wish your EFS database access point to have. This template will create an access point that the database will use to store its datafiles.
+  TagCostCenter:
+    Type: String
+    Default: L858313
+    Description: This tag and the ones that follow are provided as an example and may not be appropriate to your environment. Feel free to alter or remove them as necessary.
+  TagEnvironment:
+    Type: String
+    Default: Development
+  TagApplication:
+    Type: String
+    Default: LD4P
 Resources:
   Bucket:
     Type: AWS::S3::Bucket
@@ -41,12 +51,23 @@ Resources:
         BlockPublicPolicy: true
         IgnorePublicAcls: true
         RestrictPublicBuckets: true
+      Tags:
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
   Filesystem:
     Type: AWS::EFS::FileSystem
     Properties: 
       FileSystemTags:
         - Key: "Name"
           Value: !Ref EFSName
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
+        - Key: "Environment"
+          Value: !Ref TagEnvironment
   EFSMountTarget1:
     Type: AWS::EFS::MountTarget
     Properties: 
@@ -85,6 +106,12 @@ Resources:
       AccessPointTags: 
         - Key: "Name"
           Value: !Ref EFSAuthoritiesAccessPoint
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
+        - Key: "Environment"
+          Value: !Ref TagEnvironment
       FileSystemId: !Ref Filesystem
       PosixUser:
         Gid: 0
@@ -97,6 +124,12 @@ Resources:
       AccessPointTags: 
         - Key: "Name"
           Value: !Ref EFSDatabaseAccessPoint
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
+        - Key: "Environment"
+          Value: !Ref TagEnvironment
       FileSystemId: !Ref Filesystem
       PosixUser:
         Gid: 0
@@ -149,6 +182,15 @@ Resources:
         OverwriteMode: 'ALWAYS'
         PreserveDeletedFiles: 'REMOVE'
         TransferMode: 'CHANGED'
+      Tags:
+        - Key: "Name"
+          Value: !Ref EFSName
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
+        - Key: "Environment"
+          Value: !Ref TagEnvironment
 
 Outputs:
   S3BucketName:

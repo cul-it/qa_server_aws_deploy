@@ -54,6 +54,22 @@ Parameters:
     Description: EC2 instance type for the cluster. This is recommended to be a type with at least 2 CPUs and 8 GiB of RAM, but you can change it here if you need to.
     Type: String
     Default: m5.large
+  TagCostCenter:
+    Type: String
+    Default: L858313
+    Description: This tag and the ones that follow are provided as an example and may not be appropriate to your environment. Feel free to alter or remove them as necessary.
+  TagEnvironment:
+    Type: String
+    Default: Development
+  TagApplication:
+    Type: String
+    Default: LD4P
+  TagPanopta:
+    Type: String
+    Default: Dev
+  TagTechnicalContact:
+    Type: String
+    Default: gad22
 Mappings:
   AWSRegionToAMI:
     Description: This list of ECS-optimized AMIs will change over time and will need to be maintained. You can get the most recent AMI for your current region with the command `aws ssm get-parameters --names /aws/service/ecs/optimized-ami/amazon-linux-2/recommended`. If your region is known and does not change, the others can be ignored or removed safely.
@@ -147,6 +163,11 @@ Resources:
               AccessPointId: !Ref DatabaseAccessPointId
             RootDirectory: "/"
             TransitEncryption: ENABLED
+      Tags:
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
   CloudwatchLogGroup:
     Type: AWS::Logs::LogGroup
     Properties: 
@@ -156,6 +177,15 @@ Resources:
     Type: AWS::ECS::Cluster
     Properties: 
       ClusterName: !Join ["", [!Ref AWS::StackName, "-cluster"]]
+      Tags:
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
+        - Key: "Environment"
+          Value: !Ref TagEnvironment
+        - Key: "Technical Contact"
+          Value: !Ref TagTechnicalContact
   Service:
     Type: AWS::ECS::Service
     DependsOn: 
@@ -165,8 +195,8 @@ Resources:
       Cluster: !Join ["", [!Ref AWS::StackName, "-cluster"]]
       DeploymentConfiguration: 
         MaximumPercent: 200
-        MinimumHealthyPercent: 100
-      DesiredCount: 2
+        MinimumHealthyPercent: 0
+      DesiredCount: 1
       EnableECSManagedTags: true
       HealthCheckGracePeriodSeconds: 0
       LaunchType: "EC2"
@@ -202,6 +232,14 @@ Resources:
         - Key: Name
           Value:
             Ref: AWS::StackName
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+        - Key: "Application"
+          Value: !Ref TagApplication
+        - Key: "Environment"
+          Value: !Ref TagEnvironment
+        - Key: "Technical Contact"
+          Value: !Ref TagTechnicalContact
       Type: application
   SecurityGroupLB:
     Type: AWS::EC2::SecurityGroup
@@ -327,6 +365,25 @@ Resources:
       MinSize: '1'
       MaxSize: '2'
       DesiredCapacity: '2'
+      Tags:
+        - Key: "Name"
+          Value: !Ref AWS::StackName
+          PropagateAtLaunch: true
+        - Key: "Cost Center"
+          Value: !Ref TagCostCenter
+          PropagateAtLaunch: true
+        - Key: "Application"
+          Value: !Ref TagApplication
+          PropagateAtLaunch: true
+        - Key: "Environment"
+          Value: !Ref TagEnvironment
+          PropagateAtLaunch: true
+        - Key: "Panopta"
+          Value: !Ref TagPanopta
+          PropagateAtLaunch: true
+        - Key: "Technical Contact"
+          Value: !Ref TagTechnicalContact
+          PropagateAtLaunch: true
     CreationPolicy:
       ResourceSignal:
         Timeout: PT15M
@@ -367,8 +424,9 @@ Resources:
               'ecr:BatchCheckLayerAvailability', 'ecr:GetDownloadUrlForLayer',
               'ecr:BatchGetImage', 'logs:CreateLogStream', 'logs:PutLogEvents']
             Resource: '*'
-#  If you would rather use the AWS managed policy than the above custom policy, use this:
-#      ManagedPolicyArns:
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore'
+# The following managed policy is an alternative to the custom policy
 #        - 'arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role'
   AutoscalingRole:
     Type: AWS::IAM::Role
