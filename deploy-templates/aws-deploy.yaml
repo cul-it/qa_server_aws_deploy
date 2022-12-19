@@ -56,7 +56,7 @@ Parameters:
     Default: m5.large
   TagCostCenter:
     Type: String
-    Default: L858313
+    Default: L854711
     Description: This tag and the ones that follow are provided as an example and may not be appropriate to your environment. Feel free to alter or remove them as necessary.
   TagEnvironment:
     Type: String
