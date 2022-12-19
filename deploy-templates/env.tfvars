@@ -1,0 +1,12 @@
+profile            = "default"
+aws_account_number = "092831676293"
+account            = "prod"
+vpc_id             = "vpc-5e5cfd3a"
+public_subnet1_id  = "subnet-d7ad4ca1"
+public_subnet2_id  = "subnet-83a890da"
+private_subnet1_id = "subnet-d6ad4ca0"
+private_subnet2_id = "subnet-82a890db"
+default_sg         = "sg-0f04041f316d7e514"
+some_other_key     = "00example00"
+some_auth_token    = "00example00"
+
