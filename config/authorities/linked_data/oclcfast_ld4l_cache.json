@@ -3,8 +3,7 @@
   "service_uri": "http://ld4l.org/ld4l_services/cache",
   "prefixes": {
     "dcterms": "http://purl.org/dc/terms/",
-    "vivo":    "http://vivoweb.org/ontology/core#",
-    "schema": "https://schema.org/"
+    "vivo":    "http://vivoweb.org/ontology/core#"
   },
   "term": {
     "url": {
@@ -88,80 +87,6 @@
       "id_ldpath":    "dcterms:identifier ::xsd:string",
       "label_ldpath": "skos:prefLabel ::xsd:string",
       "sort_ldpath":  "vivo:rank ::xsd:string"
-    },
-    "context": {
-      "properties": [
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.preferred_label",
-          "property_label_default": "Preferred label",
-          "ldpath": "skos:prefLabel :: xsd:string",
-          "selectable": true,
-          "drillable": false
-        },
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.variant_label",
-          "property_label_default": "Variant label",
-          "ldpath": "skos:altLabel :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        },
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.type",
-          "property_label_default": "Type",
-          "ldpath": "rdf:type :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        },
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.replaced_by",
-          "property_label_default": "Replaced by",
-          "ldpath": "dcterms:isReplacedBy / skos:prefLabel :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        },
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.replaces",
-          "property_label_default": "Replaces",
-          "ldpath": "dcterms:replaces / skos:prefLabel :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        },
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.broader",
-          "property_label_default": "Broader",
-          "ldpath": "skos:broader / skos:prefLabel :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        },
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.related",
-          "property_label_default": "Related",
-          "ldpath": "skos:related / skos:prefLabel :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        },
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.same_as",
-          "property_label_default": "Same as",
-          "ldpath": "schema:sameAs :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        },
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.see_also",
-          "property_label_default": "See also",
-          "ldpath": " foaf:focus :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        },
-        {
-          "property_label_i18n": "qa.linked_data.authority.oclcfast_ld4l_cache.in_scheme",
-          "property_label_default": "In scheme",
-          "ldpath": "skos:inScheme :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        }
-      ]
     },
     "subauthorities": {
       "person":         "Person",
