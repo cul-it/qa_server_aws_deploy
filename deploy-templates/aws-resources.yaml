@@ -27,10 +27,10 @@ Parameters:
     Type: String
     Default: ''
     Description: The name you wish your EFS authorities access point to have. This will create an access point where your service's authorities files will live. After it is created, you will need to connect to this access point to upload at least one authority file.
-  EFSDatabaseAccessPoint:
-    Type: String
-    Default: ''
-    Description: The name you wish your EFS database access point to have. This will create an access point that the database will use to store its datafiles.
+#   EFSDatabaseAccessPoint:
+#     Type: String
+#     Default: ''
+#     Description: The name you wish your EFS database access point to have. This will create an access point that the database will use to store its datafiles.
 Resources:
   Bucket:
     Type: AWS::S3::Bucket
@@ -91,18 +91,18 @@ Resources:
         Uid: 0
       RootDirectory: 
         Path: "/authorities"
-  DatabaseAccessPoint:
-    Type: AWS::EFS::AccessPoint
-    Properties: 
-      AccessPointTags: 
-        - Key: "Name"
-          Value: !Ref EFSDatabaseAccessPoint
-      FileSystemId: !Ref Filesystem
-      PosixUser:
-        Gid: 0
-        Uid: 0
-      RootDirectory: 
-        Path: "/db-mysql-data"
+#   DatabaseAccessPoint:
+#     Type: AWS::EFS::AccessPoint
+#     Properties: 
+#       AccessPointTags: 
+#         - Key: "Name"
+#           Value: !Ref EFSDatabaseAccessPoint
+#       FileSystemId: !Ref Filesystem
+#       PosixUser:
+#         Gid: 0
+#         Uid: 0
+#       RootDirectory: 
+#         Path: "/db-mysql-data"
   EfsLocation:
     Type: AWS::DataSync::LocationEFS
     Properties:
@@ -157,7 +157,7 @@ Outputs:
     Value: !Ref Filesystem
   AuthorityAccessPointId:
     Value: !Ref AuthorityAccessPoint
-  DatabaseAccessPointId:
-    Value: !Ref DatabaseAccessPoint
+#   DatabaseAccessPointId:
+#     Value: !Ref DatabaseAccessPoint
   S3ToEfsTask:
     Value: !Ref S3ToEfsTask
