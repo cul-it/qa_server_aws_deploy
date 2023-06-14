@@ -17,4 +17,4 @@ jobs:
     steps:
       - name: reload authorities
         run:
-          curl https://qa-server-service-stg.library.cornell.edu/authorities/reload/linked_data/authorities${{ secrets.AUTHENTICATE_RELOAD }}
+          curl https://qa-server-service-stg.library.cornell.edu/authorities/reload/linked_data/authorities?auth_token=${{ secrets.AUTHENTICATE_RELOAD }}
