@@ -42,10 +42,10 @@ Parameters:
     Type: String
     Default: ''
     Description: EFS Access Point ID of the volume where the authority files are stored. This will map to the application's authority file volume, and it should contain at least one authority file. If no authority files are found, the application will still launch, and static portions will display, but the Authorities, Check Status, and Monitor Status pages may behave unpredictably.
-  DatabaseAccessPointId:
-    Type: String
-    Default: ''
-    Description: EFS Access Point ID of the volume where the database is stored. This can be empty at first launch, and it should be reused in subsequent launches if persistence of the data is desired. 
+#   DatabaseAccessPointId:
+#     Type: String
+#     Default: ''
+#     Description: EFS Access Point ID of the volume where the database is stored. This can be empty at first launch, and it should be reused in subsequent launches if persistence of the data is desired. 
   DomainName:
     Type: String
     Default: ''
@@ -88,8 +88,8 @@ Resources:
               Value: !Join ["", ["arn:aws:s3:::", !Ref S3BucketName, "/", !Ref EnvFileName]]
           Essential: True
           Image: !Ref ImageLocation
-          Links: 
-            - qa-mariadb
+#          Links: 
+#            - qa-mariadb
           LogConfiguration: 
             LogDriver: awslogs
             Options:
@@ -104,27 +104,27 @@ Resources:
             - HostPort: 3000
               Protocol: tcp
               ContainerPort: 3000
-        - Name: 'qa-mariadb'
-          Cpu: 0
-          EnvironmentFiles: 
-            - Type: s3
-              Value: !Join ["", ["arn:aws:s3:::", !Ref S3BucketName, "/", !Ref EnvFileName]]
-          Essential: True
-          Image: mariadb:10.7.4
-          LogConfiguration: 
-            LogDriver: awslogs
-            Options:
-              awslogs-group: !Join ["", ["/ecs/", !Ref AWS::StackName, "-lb"]]
-              awslogs-region: us-east-1
-              awslogs-stream-prefix: ecs
-          MemoryReservation: 512
-          MountPoints: 
-            - SourceVolume: db-mysql-data
-              ContainerPath: /var/lib/mysql/data
-          PortMappings: 
-            - HostPort: 3306
-              Protocol: tcp
-              ContainerPort: 3306
+#         - Name: 'qa-mariadb'
+#           Cpu: 0
+#           EnvironmentFiles: 
+#             - Type: s3
+#               Value: !Join ["", ["arn:aws:s3:::", !Ref S3BucketName, "/", !Ref EnvFileName]]
+#           Essential: True
+#           Image: mariadb:10.7.4
+#           LogConfiguration: 
+#             LogDriver: awslogs
+#             Options:
+#               awslogs-group: !Join ["", ["/ecs/", !Ref AWS::StackName, "-lb"]]
+#               awslogs-region: us-east-1
+#               awslogs-stream-prefix: ecs
+#           MemoryReservation: 512
+#           MountPoints: 
+#             - SourceVolume: db-mysql-data
+#               ContainerPath: /var/lib/mysql/data
+#           PortMappings: 
+#             - HostPort: 3306
+#               Protocol: tcp
+#               ContainerPort: 3306
       Cpu: 1024
       ExecutionRoleArn: !GetAtt TaskRole.Arn
       Memory: 1024
@@ -140,13 +140,13 @@ Resources:
               AccessPointId: !Ref AuthorityAccessPointId
             RootDirectory: "/"
             TransitEncryption: ENABLED
-        - Name: db-mysql-data
-          EFSVolumeConfiguration:
-            FilesystemId: !Ref VolumeId
-            AuthorizationConfig: 
-              AccessPointId: !Ref DatabaseAccessPointId
-            RootDirectory: "/"
-            TransitEncryption: ENABLED
+#         - Name: db-mysql-data
+#           EFSVolumeConfiguration:
+#             FilesystemId: !Ref VolumeId
+#             AuthorizationConfig: 
+#               AccessPointId: !Ref DatabaseAccessPointId
+#             RootDirectory: "/"
+#             TransitEncryption: ENABLED
   CloudwatchLogGroup:
     Type: AWS::Logs::LogGroup
     Properties: 
