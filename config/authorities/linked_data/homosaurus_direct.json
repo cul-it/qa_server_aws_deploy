@@ -52,8 +52,7 @@
     },
     "results": {
       "id_ldpath":    "dcterms:identifier",
-      "label_ldpath": "skos:prefLabel :: xsd:string",
-      "sort_ldpath":  "skos:prefLabel :: xsd:string"
+      "label_ldpath": "skos:prefLabel :: xsd:string"
     }
   }
 }

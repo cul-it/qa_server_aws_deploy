@@ -22,27 +22,27 @@ search:
     position: 1
   -
     query: Dating apps
-    position: 3
+    position: 1
     subject_uri: "https://homosaurus.org/v3/homoit0000328"
   -
     query: LGBTQ+
-    position: 60
+    position: 176
     subject_uri: "https://homosaurus.org/v3/homoit0001717"
   -
     query: LGBTQ+
-    position: 15
+    position: 88
     subject_uri: "https://homosaurus.org/v3/homoit0000806"
   -
     query: E (Pronouns)
-    position: 3
+    position: 1
     subject_uri: "https://homosaurus.org/v3/homoit0001676"
   -
     query: pronouns
-    position: 50
+    position: 22
     subject_uri: "https://homosaurus.org/v3/homoit0001692"
   -
     query: drug use recreational
-    position: 5
+    position: 6
     subject_uri: "https://homosaurus.org/v3/homoit0001235"
 term:
   -
