@@ -146,11 +146,6 @@ search:
     position: 5
     subject_uri: "http://vocab.getty.edu/aat/300262795"
   -
-    query: demonstrations
-    subauth: aat
-    position: 5
-    subject_uri: "http://vocab.getty.edu/aat/300262795"
-  -
     query: ontology
     subauth: aat
     position: 5
@@ -165,11 +160,6 @@ search:
     subauth: aat
     position: 5
     subject_uri: "http://vocab.getty.edu/aat/300264364"
-  -
-    query: gestabiliseerd
-    subauth: aat
-    position: 5
-    subject_uri: "http://vocab.getty.edu/aat/300163757"
   -
     query: disidente
     subauth: aat
@@ -296,14 +286,14 @@ search:
     position: 3
     subject_uri: "http://vocab.getty.edu/tgn/2069433"
   -
-    query: Boulder, CO
+    query: Boulder
     subauth: tgn
-    position: 3
+    position: 30
     subject_uri: "http://vocab.getty.edu/tgn/2000198"
   -
-    query: Paris, France
+    query: Paris
     subauth: tgn
-    position: 10
+    position: 50
     subject_uri: "http://vocab.getty.edu/tgn/7008038"
   -
     query: Nile River
@@ -328,7 +318,6 @@ search:
   -
     query: University of Chicago Library
     subauth: ulan
-    result_size: 100
     subject_uri: "http://vocab.getty.edu/ulan/500304715"
     position: 5
 term:
