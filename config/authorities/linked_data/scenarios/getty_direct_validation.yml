@@ -29,6 +29,7 @@ search:
   -
     query: transporting
     subauth: aat
+    result_size: 1
   -
     query: domestic
     subauth: aat
@@ -335,7 +336,7 @@ term:
     identifier: "300265730"
     subauth: aat
   -
-    identifier: 7017750"
+    identifier: "7017750"
     subauth: tgn
   -
     identifier: "500020427"
