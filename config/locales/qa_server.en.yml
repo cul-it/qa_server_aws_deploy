@@ -12,3 +12,8 @@ en:
       authority:
         getty_direct:
           parent_body: Parent Body
+        homosaurus_direct:
+          preferred_label: Preferred Label
+          alt_label: Alt Label
+          identifier: Identifier
+          scope: Scope

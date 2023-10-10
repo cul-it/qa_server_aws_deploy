@@ -53,6 +53,30 @@
     "results": {
       "id_ldpath":    "dcterms:identifier",
       "label_ldpath": "skos:prefLabel :: xsd:string"
+    },
+    "context": {
+      "properties": [
+        {
+          "property_label_i18n": "qa.linked_data.authority.homosaurus_direct.identifier",
+          "property_label_default": "Identifier",
+          "ldpath": "dcterms:identifier :: xsd:string"
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.homosaurus_direct.preferred_label",
+          "property_label_default": "Preferred Label",
+          "ldpath": "skos:prefLabel :: xsd:string"
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.homosaurus_direct.alt_label",
+          "property_label_default": "Alt Label",
+          "ldpath": "skos:altLabel :: xsd:string"
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.homosaurus_direct.scope",
+          "property_label_default": "Scope",
+          "ldpath": "rdfs:comment :: xsd:string"
+        }
+      ]
     }
   }
 }
