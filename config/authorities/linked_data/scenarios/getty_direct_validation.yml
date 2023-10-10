@@ -1,0 +1,332 @@
+---
+authority:
+  service: direct
+search:
+  #------------------
+  # Connection tests
+  #------------------
+  -
+    query: amphora
+    subauth: aat
+  -
+    query: events
+    subauth: aat
+  -
+    query: film
+    subauth: aat
+    result_size: 90
+  -
+    query: exhibitions
+    subauth: aat
+  -
+    query:  inspection
+    subauth: aat
+    result_size: 75
+  -
+    query: public speaking
+    subauth: aat
+    result_size: 80
+  -
+    query: transporting
+    subauth: aat
+    result_size: 1
+  -
+    query: domestic
+    subauth: aat
+  -
+    query: domestic
+    subauth: aat
+  -
+    query:  funding agencies
+    subauth: aat
+    result_size: 80
+  -
+    query: domestic
+    subauth: aat
+    result_size: 170
+  -
+    query: social science
+    subauth: aat
+    result_size: 90
+  -
+    query: air quality
+    subauth: aat
+    result_size: 160
+  -
+    query: brand name additives
+    subauth: aat
+    result_size: 80
+  -
+    query: tyvek
+    subauth: aat
+    result_size: 70
+  -
+    query: copper
+    subauth: aat
+  -
+    query: copper
+    subauth: aat
+  -
+    query: built environment
+    subauth: aat
+  -
+    query: backstops
+    subauth: aat
+    result_size: 70
+  -
+    query: reveals
+    subauth: aat
+    result_size: 70
+  -
+    query: Boston rocker
+    subauth: aat
+    result_size: 80
+  -
+    query: natural objects
+    subauth: aat
+    result_size: 80
+  -
+    query: libraries
+    subauth: aat
+    result_size: 180
+  -
+    query: admission ticket
+    subauth: aat
+    result_size: 80
+  -
+    query: density
+    subauth: aat
+    result_size: 70
+  -
+    query: density
+    subauth: aat
+    result_size: 70
+  -
+    query: pearl
+    subauth: aat
+    result_size: 80
+  -
+    query: cracks
+    subauth: aat
+  -
+    query: compass roses
+    subauth: aat
+    result_size: 80
+  -
+    query: Contemporary
+    subauth: aat
+    result_size: 190
+  -
+    query: Contemporary
+    subauth: aat
+    result_size: 190
+  -
+    query: memphis
+    subauth: tgn
+  -
+    query: washington
+    subauth: ulan
+  -
+    query: washington
+    subauth: ulan
+  -
+    query: washington
+    subauth: ulan
+  #------------------
+  #  Accuracy tests
+  #------------------
+  -
+    query: precious
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300011054"
+  -
+    query: demonstrations
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300262795"
+  -
+    query: ontology
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300054295"
+  -
+    query: lobbying
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300077524"
+  -
+    query: bhāvanā
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300264364"
+  -
+    query: disidente
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300136713"
+  -
+    query: RNA
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300410331"
+  -
+    query: printmaking studios
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300312299"
+  -
+    query: alter egos
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300435335"
+  -
+    query: credit
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300055706"
+  -
+    query: palindrome
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300417834"
+  -
+    query: Crayola Cutter (TM)
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300391344"
+  -
+    query: Masonite
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300014205"
+  -
+    query: mesh
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300014654"
+  -
+    query: residuo tóxico
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300253882"
+  -
+    query: lloy lloy
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300410934"
+  -
+    query: areas, protected
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300386975"
+  -
+    query: gewelfschotels
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300391167"
+  -
+    query: dung-chen
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300222195"
+  -
+    query: oggetti (realia)
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300265419"
+  -
+    query: VistaVision (TM)
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300264671"
+  -
+    query: hours
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300404017"
+  -
+    query: serpentiforme
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300311305"
+  -
+    query: 不穩定性
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300221189"
+  -
+    query: eggplant
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300311492"
+  -
+    query: microwear
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300249983"
+  -
+    query: filigrana
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300220293"
+  -
+    query: Ontarian
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300386484"
+  -
+    query: old-fashioned
+    subauth: aat
+    position: 5
+    subject_uri: "http://vocab.getty.edu/aat/300312275"
+  -
+    query: Gouverneur
+    subauth: tgn
+    position: 3
+    subject_uri: "http://vocab.getty.edu/tgn/2069433"
+  -
+    query: Boulder
+    subauth: tgn
+    position: 30
+    subject_uri: "http://vocab.getty.edu/tgn/2000198"
+  -
+    query: Paris
+    subauth: tgn
+    position: 50
+    subject_uri: "http://vocab.getty.edu/tgn/7008038"
+  -
+    query: Nile River
+    subauth: tgn
+    position: 3
+    subject_uri: "http://vocab.getty.edu/tgn/1127805"
+  -
+    query: Gonzalez-Torres, Felix
+    subauth: ulan
+    subject_uri: "http://vocab.getty.edu/ulan/500114715"
+    position: 5
+  -
+    query: Gouverneur
+    subauth: ulan
+    subject_uri: "http://vocab.getty.edu/ulan/500225342"
+    position: 5
+  -
+    query: Octavio Medellin
+    subauth: ulan
+    subject_uri: "http://vocab.getty.edu/ulan/500333005"
+    position: 3
+  -
+    query: University of Chicago Library
+    subauth: ulan
+    subject_uri: "http://vocab.getty.edu/ulan/500304715"
+    position: 5
+term:
+  -
+    identifier: "300265730"
+    subauth: aat
+  -
+    identifier: "7017750"
+    subauth: tgn
+  -
+    identifier: "500020427"
+    subauth: ulan

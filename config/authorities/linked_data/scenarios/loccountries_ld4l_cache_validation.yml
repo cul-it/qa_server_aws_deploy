@@ -1,0 +1,37 @@
+---
+authority:
+  service: ld4l_cache
+  context: true
+search:
+  #------------------
+  # Connection tests
+  #------------------
+  -
+    query: smithsonian
+  #------------------
+  #  Accuracy tests
+  #------------------
+  #    active
+  -
+    query: Afghanistan
+    position: 30
+    subject_uri: "http://id.loc.gov/vocabulary/countries/af"
+    replacements:
+      maxRecords: '20'
+  -
+    query: bahamas
+    position: 3
+    subject_uri: "http://id.loc.gov/vocabulary/countries/bf"
+    replacements:
+      maxRecords: '10'
+  -
+    query: Washington (State)
+    position: 3
+    subject_uri: "http://id.loc.gov/vocabulary/geographicAreas/n-us-wa"
+    replacements:
+      maxRecords: '10'
+term:
+  -
+    identifier: "http://id.loc.gov/vocabulary/countries/nkc"
+  -
+    identifier: "http://id.loc.gov/vocabulary/geographicAreas/n-us-wa"

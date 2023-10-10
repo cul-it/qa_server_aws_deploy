@@ -1,0 +1,51 @@
+---
+authority:
+  service: direct
+search:
+  #------------------
+  # Connection tests
+  #------------------
+  -
+    query: ze
+  -
+    query: Dating applications
+  #------------------
+  #  Accuracy tests
+  #------------------
+  -
+    query: aro
+    subject_uri: "https://homosaurus.org/v3/homoit0001753"
+    position: 3
+  -
+    query: Ve/Vem/Verself (Pronouns)
+    subject_uri: "https://homosaurus.org/v3/homoit0001699"
+    position: 1
+  -
+    query: Dating apps
+    position: 1
+    subject_uri: "https://homosaurus.org/v3/homoit0000328"
+  -
+    query: LGBTQ+
+    position: 176
+    subject_uri: "https://homosaurus.org/v3/homoit0001717"
+  -
+    query: LGBTQ+
+    position: 88
+    subject_uri: "https://homosaurus.org/v3/homoit0000806"
+  -
+    query: E (Pronouns)
+    position: 1
+    subject_uri: "https://homosaurus.org/v3/homoit0001676"
+  -
+    query: pronouns
+    position: 22
+    subject_uri: "https://homosaurus.org/v3/homoit0001692"
+  -
+    query: drug use recreational
+    position: 6
+    subject_uri: "https://homosaurus.org/v3/homoit0001235"
+term:
+  -
+    identifier: "homoit0001673"
+  -
+    identifier: "homoit0000806"

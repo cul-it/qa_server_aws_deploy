@@ -1,0 +1,92 @@
+{
+  "QA_CONFIG_VERSION": "2.2",
+  "prefixes": {
+    "gvp":   "http://vocab.getty.edu/ontology#"
+  },
+  "term": {
+    "url": {
+      "@context": "http://www.w3.org/ns/hydra/context.jsonld",
+      "@type":    "IriTemplate",
+      "template": "https://vocab.getty.edu/{subauth}/{term_id}",
+      "variableRepresentation": "BasicRepresentation",
+      "mapping": [
+        {
+          "@type":    "IriTemplateMapping",
+          "variable": "term_id",
+          "property": "hydra:freetextQuery",
+          "required": true,
+          "encode":   true
+        },
+        {
+          "@type":    "IriTemplateMapping",
+          "variable": "subauth",
+          "property": "hydra:freetextQuery",
+          "required": true
+        }
+      ]
+    },
+    "qa_replacement_patterns": {
+      "term_id": "term_id",
+      "subauth": "subauth"
+    },
+    "term_id": "ID",
+    "results": {
+      "id_ldpath":       "dc:identifier :: xsd:string",
+      "label_ldpath":    "skos:prefLabel :: xsd:string",
+      "altlabel_ldpath": "skos:altLabel :: xsd:string",
+      "broader_ldpath":  "skos:broader :: xsd:anyURI",
+      "narrower_ldpath": "skos:narrower :: xsd:anyURI",
+      "sameas_ldpath":   "skos:exactMatch :: xsd:anyURI"
+    },
+    "subauthorities": {
+      "aat":  "aat",
+      "tgn":  "tgn",
+      "ulan": "ulan"
+    }
+  },
+  "search": {
+    "url": {
+      "@context": "http://www.w3.org/ns/hydra/context.jsonld",
+      "@type": "IriTemplate",
+      "template": "https://vocab.getty.edu/sparql.rdf?query=CONSTRUCT+%7B%3Fs+dc%3Aidentifier+%3Fid%3B+skos%3AprefLabel+%3FprefLabel%3B+gvp%3AparentString+%3Fparent.%7D%0AWHERE+%7B%3Fs+a+skos%3AConcept%3B+luc%3Aterm+%22{query}%22%3B+skos%3AinScheme+{subauth}%3A%3B+skos%3AprefLabel+%3FprefLabel%3B+dc%3Aidentifier+%3Fid.%0A++OPTIONAL+%7B%3Fs+gvp%3AparentString+%3Fparent%7D%0A++BIND%28REPLACE%28%22{query}%22%2C+%22%5B%2C*%28%29%5D%22%2C+%22%22%2C+%22i%22%29+AS+%3Fstripped_query%29.%0A++BIND%28REPLACE%28%3Fstripped_query%2C+%22%5C%5Cs*%28%5C%5CS%2B%29%5C%5Cs*%22%2C+%22%28%3F%3D.*%241%29%22%29+AS+%3Ffilter_query%29.%0A++FILTER+regex%28str%28%3FprefLabel%29%2C+%3Ffilter_query%2C+%22i%22%29.%0A%7D+ORDER+BY+asc%28lcase%28str%28%3FprefLabel%29%29%29&_implicit=false&implicit=true&_equivalent=false&_form=%2Fsparql",
+      "variableRepresentation": "BasicRepresentation",
+      "mapping": [
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "query",
+          "property": "hydra:freetextQuery",
+          "required": true,
+          "encode": true
+        },
+        {
+          "@type":    "IriTemplateMapping",
+          "variable": "subauth",
+          "property": "hydra:freetextQuery",
+          "required": true
+        }
+      ]
+    },
+    "qa_replacement_patterns": {
+      "query":   "query",
+      "subauth": "subauth"
+    },
+    "results": {
+      "id_ldpath":     "dc:identifier :: xsd:string",
+      "label_ldpath":  "skos:prefLabel :: xsd:string"
+    },
+    "subauthorities": {
+      "aat":  "aat",
+      "tgn":  "tgn",
+      "ulan": "ulan"
+    },
+    "context": {
+      "properties": [
+        {
+          "property_label_i18n": "qa.linked_data.authority.getty_direct.parent_body",
+          "property_label_default": "Parent Body",
+          "ldpath": "gvp:parentString :: xsd:string"
+        }
+      ]
+    }
+  }
+}
