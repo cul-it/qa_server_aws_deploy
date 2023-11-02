@@ -1,0 +1,13 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDACollectionAccrualPolicy/1001
+      :uri: http://rdaregistry.info/termList/RDACollectionAccrualPolicy/1001
+      :term: closed
+    - :id: http://rdaregistry.info/termList/RDACollectionAccrualPolicy/1002
+      :uri: http://rdaregistry.info/termList/RDACollectionAccrualPolicy/1002
+      :term: passive
+    - :id: http://rdaregistry.info/termList/RDACollectionAccrualPolicy/1003
+      :uri: http://rdaregistry.info/termList/RDACollectionAccrualPolicy/1003
+      :term: active
+    - :id: http://rdaregistry.info/termList/RDACollectionAccrualPolicy/1004
+      :uri: http://rdaregistry.info/termList/RDACollectionAccrualPolicy/1004
+      :term: selective

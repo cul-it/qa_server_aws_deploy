@@ -1,0 +1,16 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/ModeIssue/1004
+      :uri: http://rdaregistry.info/termList/ModeIssue/1004
+      :term: integrating resource (Deprecated)
+    - :id: http://rdaregistry.info/termList/ModeIssue/1002
+      :uri: http://rdaregistry.info/termList/ModeIssue/1002
+      :term: multipart monograph (Deprecated)
+    - :id: http://rdaregistry.info/termList/ModeIssue/1005
+      :uri: http://rdaregistry.info/termList/ModeIssue/1005
+      :term: multiple unit
+    - :id: http://rdaregistry.info/termList/ModeIssue/1003
+      :uri: http://rdaregistry.info/termList/ModeIssue/1003
+      :term: serial (Deprecated)
+    - :id: http://rdaregistry.info/termList/ModeIssue/1001
+      :uri: http://rdaregistry.info/termList/ModeIssue/1001
+      :term: single unit

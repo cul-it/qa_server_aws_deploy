@@ -1,0 +1,19 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/fileType/1001
+      :uri: http://rdaregistry.info/termList/fileType/1001
+      :term: audio file
+    - :id: http://rdaregistry.info/termList/fileType/1005
+      :uri: http://rdaregistry.info/termList/fileType/1005
+      :term: data file
+    - :id: http://rdaregistry.info/termList/fileType/1004
+      :uri: http://rdaregistry.info/termList/fileType/1004
+      :term: image file
+    - :id: http://rdaregistry.info/termList/fileType/1003
+      :uri: http://rdaregistry.info/termList/fileType/1003
+      :term: program file
+    - :id: http://rdaregistry.info/termList/fileType/1002
+      :uri: http://rdaregistry.info/termList/fileType/1002
+      :term: text file
+    - :id: http://rdaregistry.info/termList/fileType/1006
+      :uri: http://rdaregistry.info/termList/fileType/1006
+      :term: video file

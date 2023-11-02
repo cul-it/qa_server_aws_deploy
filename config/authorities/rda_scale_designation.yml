@@ -1,0 +1,13 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/scale/1004
+      :uri: http://rdaregistry.info/termList/scale/1004
+      :term: not drawn to scale
+    - :id: http://rdaregistry.info/termList/scale/1002
+      :uri: http://rdaregistry.info/termList/scale/1002
+      :term: scale not given
+    - :id: http://rdaregistry.info/termList/scale/1003
+      :uri: http://rdaregistry.info/termList/scale/1003
+      :term: scale varies
+    - :id: http://rdaregistry.info/termList/scale/1001
+      :uri: http://rdaregistry.info/termList/scale/1001
+      :term: scales differ

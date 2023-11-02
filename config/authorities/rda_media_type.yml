@@ -1,0 +1,25 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAMediaType/1001
+      :uri: http://rdaregistry.info/termList/RDAMediaType/1001
+      :term: audio
+    - :id: http://rdaregistry.info/termList/RDAMediaType/1003
+      :uri: http://rdaregistry.info/termList/RDAMediaType/1003
+      :term: computer
+    - :id: http://rdaregistry.info/termList/RDAMediaType/1002
+      :uri: http://rdaregistry.info/termList/RDAMediaType/1002
+      :term: microform
+    - :id: http://rdaregistry.info/termList/RDAMediaType/1004
+      :uri: http://rdaregistry.info/termList/RDAMediaType/1004
+      :term: microscopic
+    - :id: http://rdaregistry.info/termList/RDAMediaType/1005
+      :uri: http://rdaregistry.info/termList/RDAMediaType/1005
+      :term: projected
+    - :id: http://rdaregistry.info/termList/RDAMediaType/1006
+      :uri: http://rdaregistry.info/termList/RDAMediaType/1006
+      :term: stereographic
+    - :id: http://rdaregistry.info/termList/RDAMediaType/1007
+      :uri: http://rdaregistry.info/termList/RDAMediaType/1007
+      :term: unmediated
+    - :id: http://rdaregistry.info/termList/RDAMediaType/1008
+      :uri: http://rdaregistry.info/termList/RDAMediaType/1008
+      :term: video

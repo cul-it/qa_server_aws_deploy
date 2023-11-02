@@ -1,0 +1,34 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/MusNotation/1001
+      :uri: http://rdaregistry.info/termList/MusNotation/1001
+      :term: graphic notation
+    - :id: http://rdaregistry.info/termList/MusNotation/1002
+      :uri: http://rdaregistry.info/termList/MusNotation/1002
+      :term: letter notation
+    - :id: http://rdaregistry.info/termList/MusNotation/1003
+      :uri: http://rdaregistry.info/termList/MusNotation/1003
+      :term: mensural notation
+    - :id: http://rdaregistry.info/termList/MusNotation/1010
+      :uri: http://rdaregistry.info/termList/MusNotation/1010
+      :term: neumatic notation
+    - :id: http://rdaregistry.info/termList/MusNotation/1004
+      :uri: http://rdaregistry.info/termList/MusNotation/1004
+      :term: number notation
+    - :id: http://rdaregistry.info/termList/MusNotation/1005
+      :uri: http://rdaregistry.info/termList/MusNotation/1005
+      :term: plainsong notation (Deprecated)
+    - :id: http://rdaregistry.info/termList/MusNotation/1006
+      :uri: http://rdaregistry.info/termList/MusNotation/1006
+      :term: solmization (Deprecated)
+    - :id: http://rdaregistry.info/termList/MusNotation/1007
+      :uri: http://rdaregistry.info/termList/MusNotation/1007
+      :term: staff notation
+    - :id: http://rdaregistry.info/termList/MusNotation/1011
+      :uri: http://rdaregistry.info/termList/MusNotation/1011
+      :term: syllabic notation
+    - :id: http://rdaregistry.info/termList/MusNotation/1008
+      :uri: http://rdaregistry.info/termList/MusNotation/1008
+      :term: tablature
+    - :id: http://rdaregistry.info/termList/MusNotation/1009
+      :uri: http://rdaregistry.info/termList/MusNotation/1009
+      :term: tonic sol-fa

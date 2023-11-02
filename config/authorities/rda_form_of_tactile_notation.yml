@@ -1,0 +1,22 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/TacNotation/1001
+      :uri: http://rdaregistry.info/termList/TacNotation/1001
+      :term: braille code
+    - :id: http://rdaregistry.info/termList/TacNotation/1002
+      :uri: http://rdaregistry.info/termList/TacNotation/1002
+      :term: computing braille code
+    - :id: http://rdaregistry.info/termList/TacNotation/1003
+      :uri: http://rdaregistry.info/termList/TacNotation/1003
+      :term: mathematics braille code
+    - :id: http://rdaregistry.info/termList/TacNotation/1004
+      :uri: http://rdaregistry.info/termList/TacNotation/1004
+      :term: Moon code
+    - :id: http://rdaregistry.info/termList/TacNotation/1005
+      :uri: http://rdaregistry.info/termList/TacNotation/1005
+      :term: music braille code
+    - :id: http://rdaregistry.info/termList/TacNotation/1007
+      :uri: http://rdaregistry.info/termList/TacNotation/1007
+      :term: tactile graphic
+    - :id: http://rdaregistry.info/termList/TacNotation/1006
+      :uri: http://rdaregistry.info/termList/TacNotation/1006
+      :term: tactile musical notation

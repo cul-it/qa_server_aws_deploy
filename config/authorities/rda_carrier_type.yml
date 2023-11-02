@@ -1,0 +1,169 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1021
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1021
+      :term: aperture card
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1070
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1070
+      :term: audio belt
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1001
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1001
+      :term: Audio carriers (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1002
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1002
+      :term: audio cartridge
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1003
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1003
+      :term: audio cylinder
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1004
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1004
+      :term: audio disc
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1006
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1006
+      :term: audio roll
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1071
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1071
+      :term: audio wire reel
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1007
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1007
+      :term: audiocassette
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1008
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1008
+      :term: audiotape reel
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1045
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1045
+      :term: card
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1011
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1011
+      :term: computer card
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1010
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1010
+      :term: Computer carriers (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1012
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1012
+      :term: computer chip cartridge
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1013
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1013
+      :term: computer disc
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1014
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1014
+      :term: computer disc cartridge
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1015
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1015
+      :term: computer tape cartridge
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1016
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1016
+      :term: computer tape cassette
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1017
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1017
+      :term: computer tape reel
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1032
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1032
+      :term: film cartridge
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1033
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1033
+      :term: film cassette
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1034
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1034
+      :term: film reel
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1069
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1069
+      :term: film roll
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1035
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1035
+      :term: filmslip
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1036
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1036
+      :term: filmstrip
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1037
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1037
+      :term: filmstrip cartridge
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1046
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1046
+      :term: flipchart
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1022
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1022
+      :term: microfiche
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1023
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1023
+      :term: microfiche cassette
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1024
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1024
+      :term: microfilm cartridge
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1025
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1025
+      :term: microfilm cassette
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1026
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1026
+      :term: microfilm reel
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1056
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1056
+      :term: microfilm roll
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1027
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1027
+      :term: microfilm slip
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1020
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1020
+      :term: Microform carriers (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1028
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1028
+      :term: microopaque
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1030
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1030
+      :term: microscope slide
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1029
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1029
+      :term: Microscopic carriers (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1059
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1059
+      :term: object
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1018
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1018
+      :term: online resource
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1039
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1039
+      :term: overhead transparency
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1031
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1031
+      :term: Projected image carriers (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1047
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1047
+      :term: roll
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1048
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1048
+      :term: sheet
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1040
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1040
+      :term: slide
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1005
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1005
+      :term: sound-track reel
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1042
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1042
+      :term: stereograph card
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1043
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1043
+      :term: stereograph disc
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1041
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1041
+      :term: Stereographic carriers (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1044
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1044
+      :term: Unmediated carriers (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1050
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1050
+      :term: Video carriers (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1051
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1051
+      :term: video cartridge
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1052
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1052
+      :term: videocassette
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1060
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1060
+      :term: videodisc
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1053
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1053
+      :term: videotape reel
+    - :id: http://rdaregistry.info/termList/RDACarrierType/1049
+      :uri: http://rdaregistry.info/termList/RDACarrierType/1049
+      :term: volume

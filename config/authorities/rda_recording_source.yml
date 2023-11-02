@@ -1,0 +1,40 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1011
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1011
+      :term: caption
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1001
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1001
+      :term: container
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1008
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1008
+      :term: cover
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1012
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1012
+      :term: embedded metadata
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1009
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1009
+      :term: jacket
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1007
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1007
+      :term: carrier label
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1010
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1010
+      :term: masthead
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1013
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1013
+      :term: series title page
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1006
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1006
+      :term: title card
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1002
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1002
+      :term: title frame
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1003
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1003
+      :term: title page
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1004
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1004
+      :term: title screen
+    - :id: http://rdaregistry.info/termList/RDARecordingSources/1005
+      :uri: http://rdaregistry.info/termList/RDARecordingSources/1005
+      :term: title sheet

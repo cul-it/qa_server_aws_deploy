@@ -1,0 +1,13 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/configPlayback/1001
+      :uri: http://rdaregistry.info/termList/configPlayback/1001
+      :term: mono
+    - :id: http://rdaregistry.info/termList/configPlayback/1003
+      :uri: http://rdaregistry.info/termList/configPlayback/1003
+      :term: quadraphonic
+    - :id: http://rdaregistry.info/termList/configPlayback/1002
+      :uri: http://rdaregistry.info/termList/configPlayback/1002
+      :term: stereo
+    - :id: http://rdaregistry.info/termList/configPlayback/1004
+      :uri: http://rdaregistry.info/termList/configPlayback/1004
+      :term: surround

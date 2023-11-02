@@ -1,0 +1,13 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/broadcastStand/1001
+      :uri: http://rdaregistry.info/termList/broadcastStand/1001
+      :term: HDTV
+    - :id: http://rdaregistry.info/termList/broadcastStand/1002
+      :uri: http://rdaregistry.info/termList/broadcastStand/1002
+      :term: NTSC
+    - :id: http://rdaregistry.info/termList/broadcastStand/1003
+      :uri: http://rdaregistry.info/termList/broadcastStand/1003
+      :term: PAL
+    - :id: http://rdaregistry.info/termList/broadcastStand/1004
+      :uri: http://rdaregistry.info/termList/broadcastStand/1004
+      :term: SECAM

@@ -1,0 +1,640 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDATerms/1001
+      :uri: http://rdaregistry.info/termList/RDATerms/1001
+      :term: access point
+    - :id: http://rdaregistry.info/termList/RDATerms/1002
+      :uri: http://rdaregistry.info/termList/RDATerms/1002
+      :term: accessible labels
+    - :id: http://rdaregistry.info/termList/RDATerms/1003
+      :uri: http://rdaregistry.info/termList/RDATerms/1003
+      :term: adaptation
+    - :id: http://rdaregistry.info/termList/RDATerms/1004
+      :uri: http://rdaregistry.info/termList/RDATerms/1004
+      :term: added title page (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1125
+      :uri: http://rdaregistry.info/termList/RDATerms/1125
+      :term: aggregate
+    - :id: http://rdaregistry.info/termList/RDATerms/1126
+      :uri: http://rdaregistry.info/termList/RDATerms/1126
+      :term: aggregating expression
+    - :id: http://rdaregistry.info/termList/RDATerms/1127
+      :uri: http://rdaregistry.info/termList/RDATerms/1127
+      :term: aggregating work
+    - :id: http://rdaregistry.info/termList/RDATerms/1180
+      :uri: http://rdaregistry.info/termList/RDATerms/1180
+      :term: alignment
+    - :id: http://rdaregistry.info/termList/RDATerms/1005
+      :uri: http://rdaregistry.info/termList/RDATerms/1005
+      :term: alternative title
+    - :id: http://rdaregistry.info/termList/RDATerms/1152
+      :uri: http://rdaregistry.info/termList/RDATerms/1152
+      :term: amalgamation
+    - :id: http://rdaregistry.info/termList/RDATerms/1006
+      :uri: http://rdaregistry.info/termList/RDATerms/1006
+      :term: analytical description (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1128
+      :uri: http://rdaregistry.info/termList/RDATerms/1128
+      :term: appellation element
+    - :id: http://rdaregistry.info/termList/RDATerms/1155
+      :uri: http://rdaregistry.info/termList/RDATerms/1155
+      :term: application profile
+    - :id: http://rdaregistry.info/termList/RDATerms/1007
+      :uri: http://rdaregistry.info/termList/RDATerms/1007
+      :term: archival resource
+    - :id: http://rdaregistry.info/termList/RDATerms/1008
+      :uri: http://rdaregistry.info/termList/RDATerms/1008
+      :term: arrangement
+    - :id: http://rdaregistry.info/termList/RDATerms/1108
+      :uri: http://rdaregistry.info/termList/RDATerms/1108
+      :term: attribute element
+    - :id: http://rdaregistry.info/termList/RDATerms/1009
+      :uri: http://rdaregistry.info/termList/RDATerms/1009
+      :term: audio description
+    - :id: http://rdaregistry.info/termList/RDATerms/1010
+      :uri: http://rdaregistry.info/termList/RDATerms/1010
+      :term: audio recording
+    - :id: http://rdaregistry.info/termList/RDATerms/1011
+      :uri: http://rdaregistry.info/termList/RDATerms/1011
+      :term: audiotape
+    - :id: http://rdaregistry.info/termList/RDATerms/1168
+      :uri: http://rdaregistry.info/termList/RDATerms/1168
+      :term: augmentation aggregate
+    - :id: http://rdaregistry.info/termList/RDATerms/1150
+      :uri: http://rdaregistry.info/termList/RDATerms/1150
+      :term: augmented work
+    - :id: http://rdaregistry.info/termList/RDATerms/1129
+      :uri: http://rdaregistry.info/termList/RDATerms/1129
+      :term: augmenting work
+    - :id: http://rdaregistry.info/termList/RDATerms/1012
+      :uri: http://rdaregistry.info/termList/RDATerms/1012
+      :term: authorized access point
+    - :id: http://rdaregistry.info/termList/RDATerms/1013
+      :uri: http://rdaregistry.info/termList/RDATerms/1013
+      :term: binding
+    - :id: http://rdaregistry.info/termList/RDATerms/1014
+      :uri: http://rdaregistry.info/termList/RDATerms/1014
+      :term: caption title
+    - :id: http://rdaregistry.info/termList/RDATerms/1015
+      :uri: http://rdaregistry.info/termList/RDATerms/1015
+      :term: captioning
+    - :id: http://rdaregistry.info/termList/RDATerms/1154
+      :uri: http://rdaregistry.info/termList/RDATerms/1154
+      :term: cardinality restriction
+    - :id: http://rdaregistry.info/termList/RDATerms/1016
+      :uri: http://rdaregistry.info/termList/RDATerms/1016
+      :term: carrier
+    - :id: http://rdaregistry.info/termList/RDATerms/1017
+      :uri: http://rdaregistry.info/termList/RDATerms/1017
+      :term: cartographic content
+    - :id: http://rdaregistry.info/termList/RDATerms/1119
+      :uri: http://rdaregistry.info/termList/RDATerms/1119
+      :term: cartographic work
+    - :id: http://rdaregistry.info/termList/RDATerms/1117
+      :uri: http://rdaregistry.info/termList/RDATerms/1117
+      :term: choreographic work
+    - :id: http://rdaregistry.info/termList/RDATerms/1018
+      :uri: http://rdaregistry.info/termList/RDATerms/1018
+      :term: citation title of a legal work
+    - :id: http://rdaregistry.info/termList/RDATerms/1177
+      :uri: http://rdaregistry.info/termList/RDATerms/1177
+      :term: class
+    - :id: http://rdaregistry.info/termList/RDATerms/1130
+      :uri: http://rdaregistry.info/termList/RDATerms/1130
+      :term: coherent description
+    - :id: http://rdaregistry.info/termList/RDATerms/1019
+      :uri: http://rdaregistry.info/termList/RDATerms/1019
+      :term: collection
+    - :id: http://rdaregistry.info/termList/RDATerms/1167
+      :uri: http://rdaregistry.info/termList/RDATerms/1167
+      :term: collection aggregate
+    - :id: http://rdaregistry.info/termList/RDATerms/1020
+      :uri: http://rdaregistry.info/termList/RDATerms/1020
+      :term: collective title
+    - :id: http://rdaregistry.info/termList/RDATerms/1176
+      :uri: http://rdaregistry.info/termList/RDATerms/1176
+      :term: common title
+    - :id: http://rdaregistry.info/termList/RDATerms/1021
+      :uri: http://rdaregistry.info/termList/RDATerms/1021
+      :term: component part (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1022
+      :uri: http://rdaregistry.info/termList/RDATerms/1022
+      :term: composite description (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1023
+      :uri: http://rdaregistry.info/termList/RDATerms/1023
+      :term: compound surname
+    - :id: http://rdaregistry.info/termList/RDATerms/1024
+      :uri: http://rdaregistry.info/termList/RDATerms/1024
+      :term: comprehensive description (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1174
+      :uri: http://rdaregistry.info/termList/RDATerms/1174
+      :term: computer content
+    - :id: http://rdaregistry.info/termList/RDATerms/1181
+      :uri: http://rdaregistry.info/termList/RDATerms/1181
+      :term: conceptual model
+    - :id: http://rdaregistry.info/termList/RDATerms/1025
+      :uri: http://rdaregistry.info/termList/RDATerms/1025
+      :term: conference
+    - :id: http://rdaregistry.info/termList/RDATerms/1026
+      :uri: http://rdaregistry.info/termList/RDATerms/1026
+      :term: container
+    - :id: http://rdaregistry.info/termList/RDATerms/1121
+      :uri: http://rdaregistry.info/termList/RDATerms/1121
+      :term: content
+    - :id: http://rdaregistry.info/termList/RDATerms/1147
+      :uri: http://rdaregistry.info/termList/RDATerms/1147
+      :term: content standard
+    - :id: http://rdaregistry.info/termList/RDATerms/1027
+      :uri: http://rdaregistry.info/termList/RDATerms/1027
+      :term: conventional collective title
+    - :id: http://rdaregistry.info/termList/RDATerms/1028
+      :uri: http://rdaregistry.info/termList/RDATerms/1028
+      :term: conventional name
+    - :id: http://rdaregistry.info/termList/RDATerms/1029
+      :uri: http://rdaregistry.info/termList/RDATerms/1029
+      :term: core (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1030
+      :uri: http://rdaregistry.info/termList/RDATerms/1030
+      :term: cover (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1142
+      :uri: http://rdaregistry.info/termList/RDATerms/1142
+      :term: data provenance
+    - :id: http://rdaregistry.info/termList/RDATerms/1031
+      :uri: http://rdaregistry.info/termList/RDATerms/1031
+      :term: dataset (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1032
+      :uri: http://rdaregistry.info/termList/RDATerms/1032
+      :term: date of a treaty
+    - :id: http://rdaregistry.info/termList/RDATerms/1033
+      :uri: http://rdaregistry.info/termList/RDATerms/1033
+      :term: date of promulgation of a law, etc.
+    - :id: http://rdaregistry.info/termList/RDATerms/1035
+      :uri: http://rdaregistry.info/termList/RDATerms/1035
+      :term: description
+    - :id: http://rdaregistry.info/termList/RDATerms/1034
+      :uri: http://rdaregistry.info/termList/RDATerms/1034
+      :term: designation
+    - :id: http://rdaregistry.info/termList/RDATerms/1036
+      :uri: http://rdaregistry.info/termList/RDATerms/1036
+      :term: devised title
+    - :id: http://rdaregistry.info/termList/RDATerms/1131
+      :uri: http://rdaregistry.info/termList/RDATerms/1131
+      :term: diachronic work
+    - :id: http://rdaregistry.info/termList/RDATerms/1132
+      :uri: http://rdaregistry.info/termList/RDATerms/1132
+      :term: diacritic mark
+    - :id: http://rdaregistry.info/termList/RDATerms/1037
+      :uri: http://rdaregistry.info/termList/RDATerms/1037
+      :term: digital resource (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1038
+      :uri: http://rdaregistry.info/termList/RDATerms/1038
+      :term: distinctive title
+    - :id: http://rdaregistry.info/termList/RDATerms/1161
+      :uri: http://rdaregistry.info/termList/RDATerms/1161
+      :term: domain
+    - :id: http://rdaregistry.info/termList/RDATerms/1039
+      :uri: http://rdaregistry.info/termList/RDATerms/1039
+      :term: double leaf
+    - :id: http://rdaregistry.info/termList/RDATerms/1040
+      :uri: http://rdaregistry.info/termList/RDATerms/1040
+      :term: early printed resource
+    - :id: http://rdaregistry.info/termList/RDATerms/1041
+      :uri: http://rdaregistry.info/termList/RDATerms/1041
+      :term: element
+    - :id: http://rdaregistry.info/termList/RDATerms/1182
+      :uri: http://rdaregistry.info/termList/RDATerms/1182
+      :term: element set (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1109
+      :uri: http://rdaregistry.info/termList/RDATerms/1109
+      :term: element subtype
+    - :id: http://rdaregistry.info/termList/RDATerms/1116
+      :uri: http://rdaregistry.info/termList/RDATerms/1116
+      :term: element supertype
+    - :id: http://rdaregistry.info/termList/RDATerms/1114
+      :uri: http://rdaregistry.info/termList/RDATerms/1114
+      :term: entity
+    - :id: http://rdaregistry.info/termList/RDATerms/1042
+      :uri: http://rdaregistry.info/termList/RDATerms/1042
+      :term: explanatory reference
+    - :id: http://rdaregistry.info/termList/RDATerms/1043
+      :uri: http://rdaregistry.info/termList/RDATerms/1043
+      :term: finding aid
+    - :id: http://rdaregistry.info/termList/RDATerms/1044
+      :uri: http://rdaregistry.info/termList/RDATerms/1044
+      :term: formally presented
+    - :id: http://rdaregistry.info/termList/RDATerms/1045
+      :uri: http://rdaregistry.info/termList/RDATerms/1045
+      :term: gathering
+    - :id: http://rdaregistry.info/termList/RDATerms/1046
+      :uri: http://rdaregistry.info/termList/RDATerms/1046
+      :term: government
+    - :id: http://rdaregistry.info/termList/RDATerms/1047
+      :uri: http://rdaregistry.info/termList/RDATerms/1047
+      :term: harmony
+    - :id: http://rdaregistry.info/termList/RDATerms/1048
+      :uri: http://rdaregistry.info/termList/RDATerms/1048
+      :term: hierarchical description (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1163
+      :uri: http://rdaregistry.info/termList/RDATerms/1163
+      :term: high-level relationship
+    - :id: http://rdaregistry.info/termList/RDATerms/1049
+      :uri: http://rdaregistry.info/termList/RDATerms/1049
+      :term: identifiable subject system (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1050
+      :uri: http://rdaregistry.info/termList/RDATerms/1050
+      :term: image description
+    - :id: http://rdaregistry.info/termList/RDATerms/1141
+      :uri: http://rdaregistry.info/termList/RDATerms/1141
+      :term: information resource
+    - :id: http://rdaregistry.info/termList/RDATerms/1175
+      :uri: http://rdaregistry.info/termList/RDATerms/1175
+      :term: instance
+    - :id: http://rdaregistry.info/termList/RDATerms/1133
+      :uri: http://rdaregistry.info/termList/RDATerms/1133
+      :term: integrating work
+    - :id: http://rdaregistry.info/termList/RDATerms/1051
+      :uri: http://rdaregistry.info/termList/RDATerms/1051
+      :term: international intergovernmental body
+    - :id: http://rdaregistry.info/termList/RDATerms/1052
+      :uri: http://rdaregistry.info/termList/RDATerms/1052
+      :term: issue (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1053
+      :uri: http://rdaregistry.info/termList/RDATerms/1053
+      :term: iteration
+    - :id: http://rdaregistry.info/termList/RDATerms/1054
+      :uri: http://rdaregistry.info/termList/RDATerms/1054
+      :term: jacket (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1115
+      :uri: http://rdaregistry.info/termList/RDATerms/1115
+      :term: jurisdiction
+    - :id: http://rdaregistry.info/termList/RDATerms/1183
+      :uri: http://rdaregistry.info/termList/RDATerms/1183
+      :term: label
+    - :id: http://rdaregistry.info/termList/RDATerms/1143
+      :uri: http://rdaregistry.info/termList/RDATerms/1143
+      :term: language of description
+    - :id: http://rdaregistry.info/termList/RDATerms/1120
+      :uri: http://rdaregistry.info/termList/RDATerms/1120
+      :term: legal work
+    - :id: http://rdaregistry.info/termList/RDATerms/1189
+      :uri: http://rdaregistry.info/termList/RDATerms/1189
+      :term: linked data vocabulary
+    - :id: http://rdaregistry.info/termList/RDATerms/1178
+      :uri: http://rdaregistry.info/termList/RDATerms/1178
+      :term: liturgical work
+    - :id: http://rdaregistry.info/termList/RDATerms/1055
+      :uri: http://rdaregistry.info/termList/RDATerms/1055
+      :term: logical unit
+    - :id: http://rdaregistry.info/termList/RDATerms/1056
+      :uri: http://rdaregistry.info/termList/RDATerms/1056
+      :term: main series (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1057
+      :uri: http://rdaregistry.info/termList/RDATerms/1057
+      :term: map series
+    - :id: http://rdaregistry.info/termList/RDATerms/1184
+      :uri: http://rdaregistry.info/termList/RDATerms/1184
+      :term: mapping
+    - :id: http://rdaregistry.info/termList/RDATerms/1058
+      :uri: http://rdaregistry.info/termList/RDATerms/1058
+      :term: media
+    - :id: http://rdaregistry.info/termList/RDATerms/1146
+      :uri: http://rdaregistry.info/termList/RDATerms/1146
+      :term: metadata description set
+    - :id: http://rdaregistry.info/termList/RDATerms/1145
+      :uri: http://rdaregistry.info/termList/RDATerms/1145
+      :term: metadata statement
+    - :id: http://rdaregistry.info/termList/RDATerms/1151
+      :uri: http://rdaregistry.info/termList/RDATerms/1151
+      :term: metadata work
+    - :id: http://rdaregistry.info/termList/RDATerms/1059
+      :uri: http://rdaregistry.info/termList/RDATerms/1059
+      :term: microfilm
+    - :id: http://rdaregistry.info/termList/RDATerms/1060
+      :uri: http://rdaregistry.info/termList/RDATerms/1060
+      :term: monograph (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1171
+      :uri: http://rdaregistry.info/termList/RDATerms/1171
+      :term: moving image work
+    - :id: http://rdaregistry.info/termList/RDATerms/1061
+      :uri: http://rdaregistry.info/termList/RDATerms/1061
+      :term: multilevel description (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1118
+      :uri: http://rdaregistry.info/termList/RDATerms/1118
+      :term: musical work
+    - :id: http://rdaregistry.info/termList/RDATerms/1062
+      :uri: http://rdaregistry.info/termList/RDATerms/1062
+      :term: name
+    - :id: http://rdaregistry.info/termList/RDATerms/1063
+      :uri: http://rdaregistry.info/termList/RDATerms/1063
+      :term: neat line
+    - :id: http://rdaregistry.info/termList/RDATerms/1064
+      :uri: http://rdaregistry.info/termList/RDATerms/1064
+      :term: non-self-describing manifestation
+    - :id: http://rdaregistry.info/termList/RDATerms/1166
+      :uri: http://rdaregistry.info/termList/RDATerms/1166
+      :term: notation
+    - :id: http://rdaregistry.info/termList/RDATerms/1172
+      :uri: http://rdaregistry.info/termList/RDATerms/1172
+      :term: object work
+    - :id: http://rdaregistry.info/termList/RDATerms/1134
+      :uri: http://rdaregistry.info/termList/RDATerms/1134
+      :term: official communication
+    - :id: http://rdaregistry.info/termList/RDATerms/1185
+      :uri: http://rdaregistry.info/termList/RDATerms/1185
+      :term: ontology
+    - :id: http://rdaregistry.info/termList/RDATerms/1169
+      :uri: http://rdaregistry.info/termList/RDATerms/1169
+      :term: parallel aggregate
+    - :id: http://rdaregistry.info/termList/RDATerms/1065
+      :uri: http://rdaregistry.info/termList/RDATerms/1065
+      :term: part (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1066
+      :uri: http://rdaregistry.info/termList/RDATerms/1066
+      :term: patronymic
+    - :id: http://rdaregistry.info/termList/RDATerms/1153
+      :uri: http://rdaregistry.info/termList/RDATerms/1153
+      :term: performance
+    - :id: http://rdaregistry.info/termList/RDATerms/1124
+      :uri: http://rdaregistry.info/termList/RDATerms/1124
+      :term: photographic work
+    - :id: http://rdaregistry.info/termList/RDATerms/1067
+      :uri: http://rdaregistry.info/termList/RDATerms/1067
+      :term: physical unit
+    - :id: http://rdaregistry.info/termList/RDATerms/1068
+      :uri: http://rdaregistry.info/termList/RDATerms/1068
+      :term: plate
+    - :id: http://rdaregistry.info/termList/RDATerms/1069
+      :uri: http://rdaregistry.info/termList/RDATerms/1069
+      :term: preferred name
+    - :id: http://rdaregistry.info/termList/RDATerms/1070
+      :uri: http://rdaregistry.info/termList/RDATerms/1070
+      :term: primary relationship (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1186
+      :uri: http://rdaregistry.info/termList/RDATerms/1186
+      :term: property
+    - :id: http://rdaregistry.info/termList/RDATerms/1071
+      :uri: http://rdaregistry.info/termList/RDATerms/1071
+      :term: protocol
+    - :id: http://rdaregistry.info/termList/RDATerms/1072
+      :uri: http://rdaregistry.info/termList/RDATerms/1072
+      :term: pseudonym
+    - :id: http://rdaregistry.info/termList/RDATerms/1135
+      :uri: http://rdaregistry.info/termList/RDATerms/1135
+      :term: published manifestation
+    - :id: http://rdaregistry.info/termList/RDATerms/1162
+      :uri: http://rdaregistry.info/termList/RDATerms/1162
+      :term: range
+    - :id: http://rdaregistry.info/termList/RDATerms/1122
+      :uri: http://rdaregistry.info/termList/RDATerms/1122
+      :term: RDA base carrier category
+    - :id: http://rdaregistry.info/termList/RDATerms/1123
+      :uri: http://rdaregistry.info/termList/RDATerms/1123
+      :term: RDA base content category
+    - :id: http://rdaregistry.info/termList/RDATerms/1159
+      :uri: http://rdaregistry.info/termList/RDATerms/1159
+      :term: real-world object
+    - :id: http://rdaregistry.info/termList/RDATerms/1073
+      :uri: http://rdaregistry.info/termList/RDATerms/1073
+      :term: reference
+    - :id: http://rdaregistry.info/termList/RDATerms/1074
+      :uri: http://rdaregistry.info/termList/RDATerms/1074
+      :term: reference source (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1107
+      :uri: http://rdaregistry.info/termList/RDATerms/1107
+      :term: related resource (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1160
+      :uri: http://rdaregistry.info/termList/RDATerms/1160
+      :term: relationship
+    - :id: http://rdaregistry.info/termList/RDATerms/1075
+      :uri: http://rdaregistry.info/termList/RDATerms/1075
+      :term: relationship designator (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1111
+      :uri: http://rdaregistry.info/termList/RDATerms/1111
+      :term: relationship element
+    - :id: http://rdaregistry.info/termList/RDATerms/1136
+      :uri: http://rdaregistry.info/termList/RDATerms/1136
+      :term: religious work
+    - :id: http://rdaregistry.info/termList/RDATerms/1076
+      :uri: http://rdaregistry.info/termList/RDATerms/1076
+      :term: reproduction
+    - :id: http://rdaregistry.info/termList/RDATerms/1077
+      :uri: http://rdaregistry.info/termList/RDATerms/1077
+      :term: resource entity
+    - :id: http://rdaregistry.info/termList/RDATerms/1078
+      :uri: http://rdaregistry.info/termList/RDATerms/1078
+      :term: running title
+    - :id: http://rdaregistry.info/termList/RDATerms/1144
+      :uri: http://rdaregistry.info/termList/RDATerms/1144
+      :term: script of description
+    - :id: http://rdaregistry.info/termList/RDATerms/1079
+      :uri: http://rdaregistry.info/termList/RDATerms/1079
+      :term: scroll
+    - :id: http://rdaregistry.info/termList/RDATerms/1106
+      :uri: http://rdaregistry.info/termList/RDATerms/1106
+      :term: section (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1080
+      :uri: http://rdaregistry.info/termList/RDATerms/1080
+      :term: self-describing manifestation
+    - :id: http://rdaregistry.info/termList/RDATerms/1187
+      :uri: http://rdaregistry.info/termList/RDATerms/1187
+      :term: semantic map
+    - :id: http://rdaregistry.info/termList/RDATerms/1137
+      :uri: http://rdaregistry.info/termList/RDATerms/1137
+      :term: serial work
+    - :id: http://rdaregistry.info/termList/RDATerms/1081
+      :uri: http://rdaregistry.info/termList/RDATerms/1081
+      :term: series
+    - :id: http://rdaregistry.info/termList/RDATerms/1082
+      :uri: http://rdaregistry.info/termList/RDATerms/1082
+      :term: series title page (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1083
+      :uri: http://rdaregistry.info/termList/RDATerms/1083
+      :term: short title of a legal work
+    - :id: http://rdaregistry.info/termList/RDATerms/1084
+      :uri: http://rdaregistry.info/termList/RDATerms/1084
+      :term: sign language
+    - :id: http://rdaregistry.info/termList/RDATerms/1158
+      :uri: http://rdaregistry.info/termList/RDATerms/1158
+      :term: single work
+    - :id: http://rdaregistry.info/termList/RDATerms/1085
+      :uri: http://rdaregistry.info/termList/RDATerms/1085
+      :term: source of information
+    - :id: http://rdaregistry.info/termList/RDATerms/1157
+      :uri: http://rdaregistry.info/termList/RDATerms/1157
+      :term: static work
+    - :id: http://rdaregistry.info/termList/RDATerms/1170
+      :uri: http://rdaregistry.info/termList/RDATerms/1170
+      :term: still image work
+    - :id: http://rdaregistry.info/termList/RDATerms/1086
+      :uri: http://rdaregistry.info/termList/RDATerms/1086
+      :term: storage medium
+    - :id: http://rdaregistry.info/termList/RDATerms/1138
+      :uri: http://rdaregistry.info/termList/RDATerms/1138
+      :term: string
+    - :id: http://rdaregistry.info/termList/RDATerms/1112
+      :uri: http://rdaregistry.info/termList/RDATerms/1112
+      :term: string encoding scheme
+    - :id: http://rdaregistry.info/termList/RDATerms/1087
+      :uri: http://rdaregistry.info/termList/RDATerms/1087
+      :term: structured description (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1190
+      :uri: http://rdaregistry.info/termList/RDATerms/1190
+      :term: entity subtype
+    - :id: http://rdaregistry.info/termList/RDATerms/1113
+      :uri: http://rdaregistry.info/termList/RDATerms/1113
+      :term: subelement
+    - :id: http://rdaregistry.info/termList/RDATerms/1191
+      :uri: http://rdaregistry.info/termList/RDATerms/1191
+      :term: subproperty
+    - :id: http://rdaregistry.info/termList/RDATerms/1088
+      :uri: http://rdaregistry.info/termList/RDATerms/1088
+      :term: subject (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1089
+      :uri: http://rdaregistry.info/termList/RDATerms/1089
+      :term: subordinate body
+    - :id: http://rdaregistry.info/termList/RDATerms/1090
+      :uri: http://rdaregistry.info/termList/RDATerms/1090
+      :term: subseries (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1091
+      :uri: http://rdaregistry.info/termList/RDATerms/1091
+      :term: subtitle
+    - :id: http://rdaregistry.info/termList/RDATerms/1092
+      :uri: http://rdaregistry.info/termList/RDATerms/1092
+      :term: subunit
+    - :id: http://rdaregistry.info/termList/RDATerms/1139
+      :uri: http://rdaregistry.info/termList/RDATerms/1139
+      :term: successive work
+    - :id: http://rdaregistry.info/termList/RDATerms/1110
+      :uri: http://rdaregistry.info/termList/RDATerms/1110
+      :term: superelement
+    - :id: http://rdaregistry.info/termList/RDATerms/1179
+      :uri: http://rdaregistry.info/termList/RDATerms/1179
+      :term: term of address
+    - :id: http://rdaregistry.info/termList/RDATerms/1165
+      :uri: http://rdaregistry.info/termList/RDATerms/1165
+      :term: textual work
+    - :id: http://rdaregistry.info/termList/RDATerms/1093
+      :uri: http://rdaregistry.info/termList/RDATerms/1093
+      :term: thematic index
+    - :id: http://rdaregistry.info/termList/RDATerms/1094
+      :uri: http://rdaregistry.info/termList/RDATerms/1094
+      :term: title frame (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1095
+      :uri: http://rdaregistry.info/termList/RDATerms/1095
+      :term: title page (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1096
+      :uri: http://rdaregistry.info/termList/RDATerms/1096
+      :term: title screen (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1148
+      :uri: http://rdaregistry.info/termList/RDATerms/1148
+      :term: transcription standard
+    - :id: http://rdaregistry.info/termList/RDATerms/1097
+      :uri: http://rdaregistry.info/termList/RDATerms/1097
+      :term: treaty
+    - :id: http://rdaregistry.info/termList/RDATerms/1098
+      :uri: http://rdaregistry.info/termList/RDATerms/1098
+      :term: type of composition
+    - :id: http://rdaregistry.info/termList/RDATerms/1099
+      :uri: http://rdaregistry.info/termList/RDATerms/1099
+      :term: unit
+    - :id: http://rdaregistry.info/termList/RDATerms/1140
+      :uri: http://rdaregistry.info/termList/RDATerms/1140
+      :term: unpublished manifestation
+    - :id: http://rdaregistry.info/termList/RDATerms/1100
+      :uri: http://rdaregistry.info/termList/RDATerms/1100
+      :term: unstructured description (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1101
+      :uri: http://rdaregistry.info/termList/RDATerms/1101
+      :term: updating loose-leaf
+    - :id: http://rdaregistry.info/termList/RDATerms/1164
+      :uri: http://rdaregistry.info/termList/RDATerms/1164
+      :term: user task
+    - :id: http://rdaregistry.info/termList/RDATerms/1188
+      :uri: http://rdaregistry.info/termList/RDATerms/1188
+      :term: value vocabulary (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1102
+      :uri: http://rdaregistry.info/termList/RDATerms/1102
+      :term: variant access point 
+    - :id: http://rdaregistry.info/termList/RDATerms/1103
+      :uri: http://rdaregistry.info/termList/RDATerms/1103
+      :term: variant name
+    - :id: http://rdaregistry.info/termList/RDATerms/1104
+      :uri: http://rdaregistry.info/termList/RDATerms/1104
+      :term: video tape
+    - :id: http://rdaregistry.info/termList/RDATerms/1105
+      :uri: http://rdaregistry.info/termList/RDATerms/1105
+      :term: vocabulary encoding scheme
+    - :id: http://rdaregistry.info/termList/RDATerms/1173
+      :uri: http://rdaregistry.info/termList/RDATerms/1173
+      :term: vocal work
+    - :id: http://rdaregistry.info/termList/RDATerms/1156
+      :uri: http://rdaregistry.info/termList/RDATerms/1156
+      :term: WEM lock
+    - :id: http://rdaregistry.info/termList/RDATerms/1149
+      :uri: http://rdaregistry.info/termList/RDATerms/1149
+      :term: work group
+    - :id: http://rdaregistry.info/termList/RDATerms/1192
+      :uri: http://rdaregistry.info/termList/RDATerms/1192
+      :term: shortcut
+    - :id: http://rdaregistry.info/termList/RDATerms/1193
+      :uri: http://rdaregistry.info/termList/RDATerms/1193
+      :term: entity supertype
+    - :id: http://rdaregistry.info/termList/RDATerms/1194
+      :uri: http://rdaregistry.info/termList/RDATerms/1194
+      :term: entity boundary
+    - :id: http://rdaregistry.info/termList/RDATerms/1195
+      :uri: http://rdaregistry.info/termList/RDATerms/1195
+      :term: conformance
+    - :id: http://rdaregistry.info/termList/RDATerms/1196
+      :uri: http://rdaregistry.info/termList/RDATerms/1196
+      :term: indirect conformance
+    - :id: http://rdaregistry.info/termList/RDATerms/1197
+      :uri: http://rdaregistry.info/termList/RDATerms/1197
+      :term: title
+    - :id: http://rdaregistry.info/termList/RDATerms/1198
+      :uri: http://rdaregistry.info/termList/RDATerms/1198
+      :term: variant title
+    - :id: http://rdaregistry.info/termList/RDATerms/1202
+      :uri: http://rdaregistry.info/termList/RDATerms/1202
+      :term: preferred title
+    - :id: http://rdaregistry.info/termList/RDATerms/1203
+      :uri: http://rdaregistry.info/termList/RDATerms/1203
+      :term: direct conformance
+    - :id: http://rdaregistry.info/termList/RDATerms/1204
+      :uri: http://rdaregistry.info/termList/RDATerms/1204
+      :term: partial conformance
+    - :id: http://rdaregistry.info/termList/RDATerms/1205
+      :uri: http://rdaregistry.info/termList/RDATerms/1205
+      :term: appellation  
+    - :id: http://rdaregistry.info/termList/RDATerms/1206
+      :uri: http://rdaregistry.info/termList/RDATerms/1206
+      :term: application (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDATerms/1207
+      :uri: http://rdaregistry.info/termList/RDATerms/1207
+      :term: minimum description
+    - :id: http://rdaregistry.info/termList/RDATerms/1208
+      :uri: http://rdaregistry.info/termList/RDATerms/1208
+      :term: effective description
+    - :id: http://rdaregistry.info/termList/RDATerms/1209
+      :uri: http://rdaregistry.info/termList/RDATerms/1209
+      :term: dramatic work
+    - :id: http://rdaregistry.info/termList/RDATerms/1210
+      :uri: http://rdaregistry.info/termList/RDATerms/1210
+      :term: collection work
+    - :id: http://rdaregistry.info/termList/RDATerms/1211
+      :uri: http://rdaregistry.info/termList/RDATerms/1211
+      :term: collection expression
+    - :id: http://rdaregistry.info/termList/RDATerms/1212
+      :uri: http://rdaregistry.info/termList/RDATerms/1212
+      :term: collection manifestation
+    - :id: http://rdaregistry.info/termList/RDATerms/1213
+      :uri: http://rdaregistry.info/termList/RDATerms/1213
+      :term: collection item
+    - :id: http://rdaregistry.info/termList/RDATerms/1214
+      :uri: http://rdaregistry.info/termList/RDATerms/1214
+      :term: unitary finding aid
+    - :id: http://rdaregistry.info/termList/RDATerms/1215
+      :uri: http://rdaregistry.info/termList/RDATerms/1215
+      :term: indexing finding aid
+    - :id: http://rdaregistry.info/termList/RDATerms/1216
+      :uri: http://rdaregistry.info/termList/RDATerms/1216
+      :term: court

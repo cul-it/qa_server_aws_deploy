@@ -1,0 +1,40 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1001
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1001
+      :term: century
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1002
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1002
+      :term: hour
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1003
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1003
+      :term: month
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1004
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1004
+      :term: year
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1005
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1005
+      :term: day
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1006
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1006
+      :term: millisecond
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1007
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1007
+      :term: nanosecond
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1008
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1008
+      :term: second
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1009
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1009
+      :term: microsecond
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1010
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1010
+      :term: decade
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1011
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1011
+      :term: millennium
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1012
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1012
+      :term: week
+    - :id: http://rdaregistry.info/termList/RDAUnitOfTime/1013
+      :uri: http://rdaregistry.info/termList/RDAUnitOfTime/1013
+      :term: minute

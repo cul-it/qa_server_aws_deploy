@@ -1,0 +1,16 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAReductionRatio/1003
+      :uri: http://rdaregistry.info/termList/RDAReductionRatio/1003
+      :term: high reduction
+    - :id: http://rdaregistry.info/termList/RDAReductionRatio/1001
+      :uri: http://rdaregistry.info/termList/RDAReductionRatio/1001
+      :term: low reduction
+    - :id: http://rdaregistry.info/termList/RDAReductionRatio/1002
+      :uri: http://rdaregistry.info/termList/RDAReductionRatio/1002
+      :term: normal reduction
+    - :id: http://rdaregistry.info/termList/RDAReductionRatio/1005
+      :uri: http://rdaregistry.info/termList/RDAReductionRatio/1005
+      :term: ultra high reduction
+    - :id: http://rdaregistry.info/termList/RDAReductionRatio/1004
+      :uri: http://rdaregistry.info/termList/RDAReductionRatio/1004
+      :term: very high reduction

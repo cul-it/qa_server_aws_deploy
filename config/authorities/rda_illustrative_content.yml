@@ -1,0 +1,46 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/IllusContent/1001
+      :uri: http://rdaregistry.info/termList/IllusContent/1001
+      :term: coat of arms
+    - :id: http://rdaregistry.info/termList/IllusContent/1002
+      :uri: http://rdaregistry.info/termList/IllusContent/1002
+      :term: facsimile
+    - :id: http://rdaregistry.info/termList/IllusContent/1003
+      :uri: http://rdaregistry.info/termList/IllusContent/1003
+      :term: form
+    - :id: http://rdaregistry.info/termList/IllusContent/1004
+      :uri: http://rdaregistry.info/termList/IllusContent/1004
+      :term: genealogical table
+    - :id: http://rdaregistry.info/termList/IllusContent/1005
+      :uri: http://rdaregistry.info/termList/IllusContent/1005
+      :term: graph
+    - :id: http://rdaregistry.info/termList/IllusContent/1006
+      :uri: http://rdaregistry.info/termList/IllusContent/1006
+      :term: illumination
+    - :id: http://rdaregistry.info/termList/IllusContent/1007
+      :uri: http://rdaregistry.info/termList/IllusContent/1007
+      :term: Illuminations (Deprecated)
+    - :id: http://rdaregistry.info/termList/IllusContent/1014
+      :uri: http://rdaregistry.info/termList/IllusContent/1014
+      :term: illustration
+    - :id: http://rdaregistry.info/termList/IllusContent/1015
+      :uri: http://rdaregistry.info/termList/IllusContent/1015
+      :term: Illustrations (Deprecated)
+    - :id: http://rdaregistry.info/termList/IllusContent/1008
+      :uri: http://rdaregistry.info/termList/IllusContent/1008
+      :term: map
+    - :id: http://rdaregistry.info/termList/IllusContent/1009
+      :uri: http://rdaregistry.info/termList/IllusContent/1009
+      :term: Music (Deprecated)
+    - :id: http://rdaregistry.info/termList/IllusContent/1010
+      :uri: http://rdaregistry.info/termList/IllusContent/1010
+      :term: photograph
+    - :id: http://rdaregistry.info/termList/IllusContent/1011
+      :uri: http://rdaregistry.info/termList/IllusContent/1011
+      :term: plan
+    - :id: http://rdaregistry.info/termList/IllusContent/1012
+      :uri: http://rdaregistry.info/termList/IllusContent/1012
+      :term: portrait
+    - :id: http://rdaregistry.info/termList/IllusContent/1013
+      :uri: http://rdaregistry.info/termList/IllusContent/1013
+      :term: sample

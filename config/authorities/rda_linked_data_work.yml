@@ -1,0 +1,10 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDALinkedDataWork/1003
+      :uri: http://rdaregistry.info/termList/RDALinkedDataWork/1003
+      :term: element set
+    - :id: http://rdaregistry.info/termList/RDALinkedDataWork/1002
+      :uri: http://rdaregistry.info/termList/RDALinkedDataWork/1002
+      :term: value vocabulary
+    - :id: http://rdaregistry.info/termList/RDALinkedDataWork/1001
+      :uri: http://rdaregistry.info/termList/RDALinkedDataWork/1001
+      :term: dataset

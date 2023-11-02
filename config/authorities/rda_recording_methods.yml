@@ -1,0 +1,13 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDARecordingMethods/1003
+      :uri: http://rdaregistry.info/termList/RDARecordingMethods/1003
+      :term: identifier
+    - :id: http://rdaregistry.info/termList/RDARecordingMethods/1004
+      :uri: http://rdaregistry.info/termList/RDARecordingMethods/1004
+      :term: IRI
+    - :id: http://rdaregistry.info/termList/RDARecordingMethods/1002
+      :uri: http://rdaregistry.info/termList/RDARecordingMethods/1002
+      :term: structured description
+    - :id: http://rdaregistry.info/termList/RDARecordingMethods/1001
+      :uri: http://rdaregistry.info/termList/RDARecordingMethods/1001
+      :term: unstructured description

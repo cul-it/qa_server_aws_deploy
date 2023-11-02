@@ -1,0 +1,10 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAPolarity/1003
+      :uri: http://rdaregistry.info/termList/RDAPolarity/1003
+      :term: mixed polarity
+    - :id: http://rdaregistry.info/termList/RDAPolarity/1002
+      :uri: http://rdaregistry.info/termList/RDAPolarity/1002
+      :term: negative
+    - :id: http://rdaregistry.info/termList/RDAPolarity/1001
+      :uri: http://rdaregistry.info/termList/RDAPolarity/1001
+      :term: positive

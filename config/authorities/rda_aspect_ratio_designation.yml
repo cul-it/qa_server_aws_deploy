@@ -1,0 +1,10 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/AspectRatio/1001
+      :uri: http://rdaregistry.info/termList/AspectRatio/1001
+      :term: full screen
+    - :id: http://rdaregistry.info/termList/AspectRatio/1003
+      :uri: http://rdaregistry.info/termList/AspectRatio/1003
+      :term: mixed aspect ratio
+    - :id: http://rdaregistry.info/termList/AspectRatio/1002
+      :uri: http://rdaregistry.info/termList/AspectRatio/1002
+      :term: wide screen
