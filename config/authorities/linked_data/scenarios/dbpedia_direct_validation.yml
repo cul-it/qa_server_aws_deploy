@@ -12,16 +12,12 @@ search:
   #------------------
   -
     query: Volleyball
-    position: 5
-    subject_uri: "http://dbpedia.org/resource/Volleyball"
+    position: 9000
+    subject_uri: 'http://dbpedia.org/resource/Volleyball'
   -
-    query: Volleyb
-    position: 5
-    subject_uri: "http://dbpedia.org/resource/Volleyball"
-  -
-    query: volleyb
-    position: 5
-    subject_uri: "http://dbpedia.org/resource/Volleyball"
+    query: Cristiano Ronaldo
+    position: 10
+    subject_uri: 'http://dbpedia.org/resource/Cristiano_Ronaldo'
 term:
   -
     identifier: 'http://dbpedia.org/resource/Barack_Obama'
