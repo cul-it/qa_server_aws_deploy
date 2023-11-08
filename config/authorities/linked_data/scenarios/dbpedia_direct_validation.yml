@@ -11,9 +11,9 @@ search:
   #  Accuracy tests
   #------------------
   -
-    query: Volleyball
-    position: 9000
-    subject_uri: 'http://dbpedia.org/resource/Volleyball'
+    query: amphora
+    position: 5
+    subject_uri: 'http://dbpedia.org/resource/Amphora'
   -
     query: Cristiano Ronaldo
     position: 10
