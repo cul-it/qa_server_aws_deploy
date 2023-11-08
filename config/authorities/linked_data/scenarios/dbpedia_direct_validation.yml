@@ -1,6 +1,27 @@
 ---
 authority:
   service: direct
+search:
+  #------------------
+  # Connection tests
+  #------------------
+  -
+    query: 'Barack Obama'
+  #------------------
+  #  Accuracy tests
+  #------------------
+  -
+    query: Volleyball
+    position: 5
+    subject_uri: "http://dbpedia.org/resource/Volleyball"
+  -
+    query: Volleyb
+    position: 5
+    subject_uri: "http://dbpedia.org/resource/Volleyball"
+  -
+    query: volleyb
+    position: 5
+    subject_uri: "http://dbpedia.org/resource/Volleyball"
 term:
   -
     identifier: 'http://dbpedia.org/resource/Barack_Obama'
