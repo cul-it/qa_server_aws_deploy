@@ -1,0 +1,31 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1004
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1004
+      :term: closed ring binding
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1002
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1002
+      :term: case binding
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1005
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1005
+      :term: open ring binding
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1001
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1001
+      :term: perfect binding
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1003
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1003
+      :term: spiral binding
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1006
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1006
+      :term: springback binding
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1007
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1007
+      :term: saddle stitch binding
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1008
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1008
+      :term: board book binding
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1009
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1009
+      :term: slide binding
+    - :id: http://rdaregistry.info/termList/RDATypeOfBinding/1010
+      :uri: http://rdaregistry.info/termList/RDATypeOfBinding/1010
+      :term: comb binding

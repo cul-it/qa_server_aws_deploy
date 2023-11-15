@@ -1,7 +1,7 @@
 {
   "QA_CONFIG_VERSION": "2.1",
   "prefixes": {
-    "dbpedia": "http://dbpedia.org/property/"
+    "dbo": "http://dbpedia.org/ontology/"
   },
   "term": {
     "url": {
@@ -36,5 +36,54 @@
       "sameas_ldpath": "owl:sameAs ::xsd:anyURI"
     }
   },
-  "search": {}
+  "search": {
+    "url": {
+      "@context": "http://www.w3.org/ns/hydra/context.jsonld",
+      "@type": "IriTemplate",
+      "template": "https://dbpedia.org/sparql?query=CONSTRUCT+%7B+%3Furi+rdfs%3Alabel+%3Flabel%3B+foaf%3Aname+%3Fname%3B+dbo%3Aabstract+%3Fabstract.+%7D+WHERE+%7B+%7B+%3Furi+rdfs%3Alabel+%3FlabelMatch+FILTER%28bif%3Acontains%28%3FlabelMatch%2C+%27%22{query}%22%27%29+%26%26+langMatches%28lang%28%3FlabelMatch%29%2C%22{lang}%22%29%29+%7D+UNION+%7B+%3Furi+foaf%3Aname+%3FnameMatch+FILTER%28bif%3Acontains%28%3FnameMatch%2C+%27%22{query}%22%27%29+%26%26+langMatches%28lang%28%3FnameMatch%29%2C%22{lang}%22%29%29+%7D+OPTIONAL+%7B+%3Furi+rdfs%3Alabel+%3Flabel+%7D+OPTIONAL+%7B+%3Furi+foaf%3Aname+%3Fname+%7D+OPTIONAL+%7B%3Furi+dbo%3Aabstract+%3Fabstract+%7D+FILTER%28%28%21bound%28%3Flabel%29+%7C%7C+langMatches%28lang%28%3Flabel%29%2C%22{lang}%22%29%29+%26%26+%28%21bound%28%3Fname%29+%7C%7C+langMatches%28lang%28%3Fname%29%2C%22{lang}%22%29%29+%26%26+%28%21bound%28%3Fabstract%29+%7C%7C+langMatches%28lang%28%3Fabstract%29%2C%22{lang}%22%29%29%29+%7D&format=application%2Frdf%2Bxml&timeout=30000",
+      "variableRepresentation": "BasicRepresentation",
+      "mapping": [
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "query",
+          "property": "hydra:freetextQuery",
+          "required": true,
+          "encode":   true
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "lang",
+          "property": "hydra:freetextQuery",
+          "required": false,
+          "default": "en"
+        }
+      ]
+    },
+    "qa_replacement_patterns": {
+      "query":   "query",
+      "lang":    "lang"
+    },
+    "results": {
+      "label_ldpath":  "rdfs:label | fn:first(rdfs:label, fn:strJoin(foaf:name, ', ')) :: xsd:string"
+    },
+    "context": {
+      "properties": [
+        {
+          "property_label_i18n": "qa.linked_data.authority.dbpedia_direct.label",
+          "property_label_default": "Label",
+          "ldpath": "rdfs:label :: xsd:string"
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.dbpedia_direct.name",
+          "property_label_default": "Name",
+          "ldpath": "foaf:name :: xsd:string"
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.dbpedia_direct.abstract",
+          "property_label_default": "Abstract",
+          "ldpath": "dbo:abstract :: xsd:string"
+        }
+      ]
+    }
+  }
 }

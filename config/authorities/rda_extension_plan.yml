@@ -1,0 +1,16 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAExtensionPlan/1002
+      :uri: http://rdaregistry.info/termList/RDAExtensionPlan/1002
+      :term: integrating determinate plan
+    - :id: http://rdaregistry.info/termList/RDAExtensionPlan/1003
+      :uri: http://rdaregistry.info/termList/RDAExtensionPlan/1003
+      :term: integrating indeterminate plan
+    - :id: http://rdaregistry.info/termList/RDAExtensionPlan/1001
+      :uri: http://rdaregistry.info/termList/RDAExtensionPlan/1001
+      :term: static plan
+    - :id: http://rdaregistry.info/termList/RDAExtensionPlan/1004
+      :uri: http://rdaregistry.info/termList/RDAExtensionPlan/1004
+      :term: successive determinate plan
+    - :id: http://rdaregistry.info/termList/RDAExtensionPlan/1005
+      :uri: http://rdaregistry.info/termList/RDAExtensionPlan/1005
+      :term: successive indeterminate plan

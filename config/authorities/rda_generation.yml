@@ -1,0 +1,58 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1001
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1001
+      :term: derivative master
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1002
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1002
+      :term: disc master
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1003
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1003
+      :term: duplicate (Deprecated)
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1019
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1019
+      :term: duplicate negative
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1004
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1004
+      :term: first generation
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1005
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1005
+      :term: master
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1012
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1012
+      :term: master positive
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1006
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1006
+      :term: master tape
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1007
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1007
+      :term: mixed generation
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1008
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1008
+      :term: mother
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1009
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1009
+      :term: original
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1013
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1013
+      :term: original negative
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1010
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1010
+      :term: printing master
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1011
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1011
+      :term: reference print
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1014
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1014
+      :term: service copy
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1015
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1015
+      :term: stamper
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1016
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1016
+      :term: tape duplication master
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1017
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1017
+      :term: test pressing
+    - :id: http://rdaregistry.info/termList/RDAGeneration/1018
+      :uri: http://rdaregistry.info/termList/RDAGeneration/1018
+      :term: viewing copy

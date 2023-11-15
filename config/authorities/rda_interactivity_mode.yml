@@ -1,0 +1,7 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAInteractivityMode/1001
+      :uri: http://rdaregistry.info/termList/RDAInteractivityMode/1001
+      :term: interactive
+    - :id: http://rdaregistry.info/termList/RDAInteractivityMode/1002
+      :uri: http://rdaregistry.info/termList/RDAInteractivityMode/1002
+      :term: non-interactive

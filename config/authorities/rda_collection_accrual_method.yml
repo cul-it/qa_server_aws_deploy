@@ -1,0 +1,16 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1001
+      :uri: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1001
+      :term: loan
+    - :id: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1002
+      :uri: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1002
+      :term: deposit
+    - :id: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1003
+      :uri: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1003
+      :term: donation
+    - :id: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1004
+      :uri: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1004
+      :term: license
+    - :id: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1005
+      :uri: http://rdaregistry.info/termList/RDACollectionAccrualMethod/1005
+      :term: purchase

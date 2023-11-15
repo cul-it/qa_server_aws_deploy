@@ -1,0 +1,10 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/statIdentification/1001
+      :uri: http://rdaregistry.info/termList/statIdentification/1001
+      :term: fully established
+    - :id: http://rdaregistry.info/termList/statIdentification/1003
+      :uri: http://rdaregistry.info/termList/statIdentification/1003
+      :term: preliminary
+    - :id: http://rdaregistry.info/termList/statIdentification/1002
+      :uri: http://rdaregistry.info/termList/statIdentification/1002
+      :term: provisional

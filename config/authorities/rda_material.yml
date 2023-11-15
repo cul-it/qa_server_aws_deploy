@@ -1,0 +1,145 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1001
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1001
+      :term: acetate
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1002
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1002
+      :term: acrylic paint
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1003
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1003
+      :term: aluminium
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1004
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1004
+      :term: Bristol board
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1005
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1005
+      :term: canvas
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1006
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1006
+      :term: cardboard
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1007
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1007
+      :term: ceramic
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1008
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1008
+      :term: chalk
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1009
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1009
+      :term: charcoal
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1010
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1010
+      :term: diacetate
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1046
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1046
+      :term: diazo emulsion
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1011
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1011
+      :term: dye
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1012
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1012
+      :term: glass
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1013
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1013
+      :term: gouache
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1014
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1014
+      :term: graphite
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1015
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1015
+      :term: hardboard
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1016
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1016
+      :term: illustration board
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1017
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1017
+      :term: ink
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1018
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1018
+      :term: ivory
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1019
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1019
+      :term: lacquer
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1020
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1020
+      :term: leather
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1021
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1021
+      :term: magnetic particles
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1022
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1022
+      :term: metal
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1023
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1023
+      :term: nitrate
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1024
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1024
+      :term: oil paint
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1025
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1025
+      :term: paper
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1026
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1026
+      :term: parchment
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1027
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1027
+      :term: pastel
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1028
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1028
+      :term: plaster
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1029
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1029
+      :term: plastic
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1030
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1030
+      :term: polyester
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1031
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1031
+      :term: porcelain
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1032
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1032
+      :term: rubber
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1033
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1033
+      :term: safety base
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1034
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1034
+      :term: shellac
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1047
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1047
+      :term: silver halide emulsion
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1035
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1035
+      :term: skin
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1036
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1036
+      :term: stone
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1037
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1037
+      :term: synthetic
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1038
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1038
+      :term: tempera
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1039
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1039
+      :term: textile
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1040
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1040
+      :term: triacetate
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1041
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1041
+      :term: vellum
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1048
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1048
+      :term: vesicular emulsion
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1042
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1042
+      :term: vinyl
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1043
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1043
+      :term: watercolour
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1044
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1044
+      :term: wax
+    - :id: http://rdaregistry.info/termList/RDAMaterial/1045
+      :uri: http://rdaregistry.info/termList/RDAMaterial/1045
+      :term: wood

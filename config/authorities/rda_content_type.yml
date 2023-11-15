@@ -1,0 +1,73 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAContentType/1001
+      :uri: http://rdaregistry.info/termList/RDAContentType/1001
+      :term: cartographic dataset
+    - :id: http://rdaregistry.info/termList/RDAContentType/1002
+      :uri: http://rdaregistry.info/termList/RDAContentType/1002
+      :term: cartographic image
+    - :id: http://rdaregistry.info/termList/RDAContentType/1003
+      :uri: http://rdaregistry.info/termList/RDAContentType/1003
+      :term: cartographic moving image
+    - :id: http://rdaregistry.info/termList/RDAContentType/1004
+      :uri: http://rdaregistry.info/termList/RDAContentType/1004
+      :term: cartographic tactile image
+    - :id: http://rdaregistry.info/termList/RDAContentType/1005
+      :uri: http://rdaregistry.info/termList/RDAContentType/1005
+      :term: cartographic tactile three-dimensional form
+    - :id: http://rdaregistry.info/termList/RDAContentType/1006
+      :uri: http://rdaregistry.info/termList/RDAContentType/1006
+      :term: cartographic three-dimensional form
+    - :id: http://rdaregistry.info/termList/RDAContentType/1007
+      :uri: http://rdaregistry.info/termList/RDAContentType/1007
+      :term: computer dataset
+    - :id: http://rdaregistry.info/termList/RDAContentType/1008
+      :uri: http://rdaregistry.info/termList/RDAContentType/1008
+      :term: computer program
+    - :id: http://rdaregistry.info/termList/RDAContentType/1009
+      :uri: http://rdaregistry.info/termList/RDAContentType/1009
+      :term: notated movement
+    - :id: http://rdaregistry.info/termList/RDAContentType/1010
+      :uri: http://rdaregistry.info/termList/RDAContentType/1010
+      :term: notated music
+    - :id: http://rdaregistry.info/termList/RDAContentType/1024
+      :uri: http://rdaregistry.info/termList/RDAContentType/1024
+      :term: performed movement
+    - :id: http://rdaregistry.info/termList/RDAContentType/1011
+      :uri: http://rdaregistry.info/termList/RDAContentType/1011
+      :term: performed music
+    - :id: http://rdaregistry.info/termList/RDAContentType/1012
+      :uri: http://rdaregistry.info/termList/RDAContentType/1012
+      :term: sounds
+    - :id: http://rdaregistry.info/termList/RDAContentType/1013
+      :uri: http://rdaregistry.info/termList/RDAContentType/1013
+      :term: spoken word
+    - :id: http://rdaregistry.info/termList/RDAContentType/1014
+      :uri: http://rdaregistry.info/termList/RDAContentType/1014
+      :term: still image
+    - :id: http://rdaregistry.info/termList/RDAContentType/1015
+      :uri: http://rdaregistry.info/termList/RDAContentType/1015
+      :term: tactile image
+    - :id: http://rdaregistry.info/termList/RDAContentType/1017
+      :uri: http://rdaregistry.info/termList/RDAContentType/1017
+      :term: tactile notated movement
+    - :id: http://rdaregistry.info/termList/RDAContentType/1016
+      :uri: http://rdaregistry.info/termList/RDAContentType/1016
+      :term: tactile notated music
+    - :id: http://rdaregistry.info/termList/RDAContentType/1018
+      :uri: http://rdaregistry.info/termList/RDAContentType/1018
+      :term: tactile text
+    - :id: http://rdaregistry.info/termList/RDAContentType/1019
+      :uri: http://rdaregistry.info/termList/RDAContentType/1019
+      :term: tactile three-dimensional form
+    - :id: http://rdaregistry.info/termList/RDAContentType/1020
+      :uri: http://rdaregistry.info/termList/RDAContentType/1020
+      :term: text
+    - :id: http://rdaregistry.info/termList/RDAContentType/1021
+      :uri: http://rdaregistry.info/termList/RDAContentType/1021
+      :term: three-dimensional form
+    - :id: http://rdaregistry.info/termList/RDAContentType/1022
+      :uri: http://rdaregistry.info/termList/RDAContentType/1022
+      :term: three-dimensional moving image
+    - :id: http://rdaregistry.info/termList/RDAContentType/1023
+      :uri: http://rdaregistry.info/termList/RDAContentType/1023
+      :term: two-dimensional moving image

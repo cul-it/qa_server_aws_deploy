@@ -1,0 +1,46 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1001
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1001
+      :term: all regions
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1002
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1002
+      :term: Region 1
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1004
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1004
+      :term: Region 2
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1008
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1008
+      :term: Region 3
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1010
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1010
+      :term: Region 4
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1011
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1011
+      :term: Region 5
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1015
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1015
+      :term: Region 6
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1007
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1007
+      :term: Region 7
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1006
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1006
+      :term: Region 8
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1003
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1003
+      :term: Region A
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1005
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1005
+      :term: Region B
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1012
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1012
+      :term: Region C (Blu-ray)
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1009
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1009
+      :term: Region C (video game)
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1013
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1013
+      :term: Region J
+    - :id: http://rdaregistry.info/termList/RDARegionalEncoding/1014
+      :uri: http://rdaregistry.info/termList/RDARegionalEncoding/1014
+      :term: Region U/C

@@ -10,6 +10,10 @@ en:
   qa:
     linked_data:
       authority:
+        dbpedia_direct:
+          abstract: Abstract
+          label: Label
+          name: Name
         getty_direct:
           parent_body: Parent Body
         homosaurus_direct:

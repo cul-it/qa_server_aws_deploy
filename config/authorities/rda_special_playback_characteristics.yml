@@ -1,0 +1,28 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/specPlayback/1001
+      :uri: http://rdaregistry.info/termList/specPlayback/1001
+      :term: CCIR encoded
+    - :id: http://rdaregistry.info/termList/specPlayback/1002
+      :uri: http://rdaregistry.info/termList/specPlayback/1002
+      :term: CX encoded
+    - :id: http://rdaregistry.info/termList/specPlayback/1003
+      :uri: http://rdaregistry.info/termList/specPlayback/1003
+      :term: dbx encoded
+    - :id: http://rdaregistry.info/termList/specPlayback/1004
+      :uri: http://rdaregistry.info/termList/specPlayback/1004
+      :term: Dolby
+    - :id: http://rdaregistry.info/termList/specPlayback/1005
+      :uri: http://rdaregistry.info/termList/specPlayback/1005
+      :term: Dolby-A encoded
+    - :id: http://rdaregistry.info/termList/specPlayback/1006
+      :uri: http://rdaregistry.info/termList/specPlayback/1006
+      :term: Dolby-B encoded
+    - :id: http://rdaregistry.info/termList/specPlayback/1007
+      :uri: http://rdaregistry.info/termList/specPlayback/1007
+      :term: Dolby-C encoded
+    - :id: http://rdaregistry.info/termList/specPlayback/1008
+      :uri: http://rdaregistry.info/termList/specPlayback/1008
+      :term: LPCM
+    - :id: http://rdaregistry.info/termList/specPlayback/1009
+      :uri: http://rdaregistry.info/termList/specPlayback/1009
+      :term: NAB standard

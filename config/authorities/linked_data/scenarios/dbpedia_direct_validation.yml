@@ -1,6 +1,23 @@
 ---
 authority:
   service: direct
+search:
+  #------------------
+  # Connection tests
+  #------------------
+  -
+    query: 'Barack Obama'
+  #------------------
+  #  Accuracy tests
+  #------------------
+  -
+    query: amphora
+    position: 5
+    subject_uri: 'http://dbpedia.org/resource/Amphora'
+  -
+    query: Cristiano Ronaldo
+    position: 10
+    subject_uri: 'http://dbpedia.org/resource/Cristiano_Ronaldo'
 term:
   -
     identifier: 'http://dbpedia.org/resource/Barack_Obama'

@@ -1,0 +1,61 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1001
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1001
+      :term: blueline process
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1002
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1002
+      :term: blueprint process
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1015
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1015
+      :term: burning
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1003
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1003
+      :term: collotype
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1004
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1004
+      :term: daguerreotype process
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1018
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1018
+      :term: embossing
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1005
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1005
+      :term: engraving
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1006
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1006
+      :term: etching
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1016
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1016
+      :term: inscribing
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1007
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1007
+      :term: lithography
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1008
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1008
+      :term: photocopying
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1009
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1009
+      :term: photoengraving
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1014
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1014
+      :term: photogravure process
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1010
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1010
+      :term: printing
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1019
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1019
+      :term: solid dot
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1017
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1017
+      :term: stamping
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1020
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1020
+      :term: swell paper
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1021
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1021
+      :term: thermoform
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1011
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1011
+      :term: white print process
+    - :id: http://rdaregistry.info/termList/RDAproductionMethod/1012
+      :uri: http://rdaregistry.info/termList/RDAproductionMethod/1012
+      :term: woodcut making

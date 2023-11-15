@@ -1,0 +1,124 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1001
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1001
+      :term: activity card
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1002
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1002
+      :term: atlas
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1003
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1003
+      :term: case
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1004
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1004
+      :term: chart
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1005
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1005
+      :term: coin
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1006
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1006
+      :term: collage
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1007
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1007
+      :term: column
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1008
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1008
+      :term: diagram
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1009
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1009
+      :term: diorama
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1010
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1010
+      :term: drawing
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1011
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1011
+      :term: exhibit
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1012
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1012
+      :term: flash card
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1013
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1013
+      :term: folded sheet
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1014
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1014
+      :term: game
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1015
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1015
+      :term: globe
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1016
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1016
+      :term: icon
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1017
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1017
+      :term: jigsaw puzzle
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1018
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1018
+      :term: leaf
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1019
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1019
+      :term: map
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1020
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1020
+      :term: medal
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1021
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1021
+      :term: mock-up
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1022
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1022
+      :term: model
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1023
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1023
+      :term: page
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1024
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1024
+      :term: painting
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1025
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1025
+      :term: photograph
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1026
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1026
+      :term: picture
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1027
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1027
+      :term: portfolio
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1028
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1028
+      :term: postcard
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1029
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1029
+      :term: poster
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1030
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1030
+      :term: print
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1031
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1031
+      :term: profile
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1032
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1032
+      :term: radiograph
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1033
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1033
+      :term: remote-sensing image
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1034
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1034
+      :term: sculpture
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1035
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1035
+      :term: section
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1036
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1036
+      :term: specimen
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1037
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1037
+      :term: study print
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1038
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1038
+      :term: technical drawing
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1039
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1039
+      :term: toy
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1040
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1040
+      :term: view
+    - :id: http://rdaregistry.info/termList/RDACarrierEU/1041
+      :uri: http://rdaregistry.info/termList/RDACarrierEU/1041
+      :term: wall chart

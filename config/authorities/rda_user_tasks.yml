@@ -1,0 +1,16 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDATasks/1005
+      :uri: http://rdaregistry.info/termList/RDATasks/1005
+      :term: explore
+    - :id: http://rdaregistry.info/termList/RDATasks/1001
+      :uri: http://rdaregistry.info/termList/RDATasks/1001
+      :term: find
+    - :id: http://rdaregistry.info/termList/RDATasks/1002
+      :uri: http://rdaregistry.info/termList/RDATasks/1002
+      :term: identify
+    - :id: http://rdaregistry.info/termList/RDATasks/1004
+      :uri: http://rdaregistry.info/termList/RDATasks/1004
+      :term: obtain
+    - :id: http://rdaregistry.info/termList/RDATasks/1003
+      :uri: http://rdaregistry.info/termList/RDATasks/1003
+      :term: select

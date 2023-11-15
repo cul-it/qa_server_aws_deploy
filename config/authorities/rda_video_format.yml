@@ -1,0 +1,46 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/videoFormat/1007
+      :uri: http://rdaregistry.info/termList/videoFormat/1007
+      :term: 8 mm
+    - :id: http://rdaregistry.info/termList/videoFormat/1002
+      :uri: http://rdaregistry.info/termList/videoFormat/1002
+      :term: Betacam
+    - :id: http://rdaregistry.info/termList/videoFormat/1016
+      :uri: http://rdaregistry.info/termList/videoFormat/1016
+      :term: Betacam SP
+    - :id: http://rdaregistry.info/termList/videoFormat/1001
+      :uri: http://rdaregistry.info/termList/videoFormat/1001
+      :term: Betamax
+    - :id: http://rdaregistry.info/termList/videoFormat/1004
+      :uri: http://rdaregistry.info/termList/videoFormat/1004
+      :term: CED
+    - :id: http://rdaregistry.info/termList/videoFormat/1005
+      :uri: http://rdaregistry.info/termList/videoFormat/1005
+      :term: D-2
+    - :id: http://rdaregistry.info/termList/videoFormat/1006
+      :uri: http://rdaregistry.info/termList/videoFormat/1006
+      :term: EIAJ
+    - :id: http://rdaregistry.info/termList/videoFormat/1008
+      :uri: http://rdaregistry.info/termList/videoFormat/1008
+      :term: Hi-8 mm
+    - :id: http://rdaregistry.info/termList/videoFormat/1009
+      :uri: http://rdaregistry.info/termList/videoFormat/1009
+      :term: laser optical
+    - :id: http://rdaregistry.info/termList/videoFormat/1010
+      :uri: http://rdaregistry.info/termList/videoFormat/1010
+      :term: M-II
+    - :id: http://rdaregistry.info/termList/videoFormat/1011
+      :uri: http://rdaregistry.info/termList/videoFormat/1011
+      :term: Quadruplex
+    - :id: http://rdaregistry.info/termList/videoFormat/1012
+      :uri: http://rdaregistry.info/termList/videoFormat/1012
+      :term: Super-VHS
+    - :id: http://rdaregistry.info/termList/videoFormat/1013
+      :uri: http://rdaregistry.info/termList/videoFormat/1013
+      :term: Type C
+    - :id: http://rdaregistry.info/termList/videoFormat/1014
+      :uri: http://rdaregistry.info/termList/videoFormat/1014
+      :term: U-matic
+    - :id: http://rdaregistry.info/termList/videoFormat/1015
+      :uri: http://rdaregistry.info/termList/videoFormat/1015
+      :term: VHS

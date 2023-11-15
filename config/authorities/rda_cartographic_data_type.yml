@@ -1,0 +1,10 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/RDACartoDT/1003
+      :uri: http://rdaregistry.info/termList/RDACartoDT/1003
+      :term: point
+    - :id: http://rdaregistry.info/termList/RDACartoDT/1001
+      :uri: http://rdaregistry.info/termList/RDACartoDT/1001
+      :term: raster
+    - :id: http://rdaregistry.info/termList/RDACartoDT/1002
+      :uri: http://rdaregistry.info/termList/RDACartoDT/1002
+      :term: vector

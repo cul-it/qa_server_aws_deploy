@@ -1,0 +1,37 @@
+:terms:
+    - :id: http://rdaregistry.info/termList/presFormat/1012
+      :uri: http://rdaregistry.info/termList/presFormat/1012
+      :term: 3D
+    - :id: http://rdaregistry.info/termList/presFormat/1002
+      :uri: http://rdaregistry.info/termList/presFormat/1002
+      :term: Cinemiracle
+    - :id: http://rdaregistry.info/termList/presFormat/1001
+      :uri: http://rdaregistry.info/termList/presFormat/1001
+      :term: Cinerama
+    - :id: http://rdaregistry.info/termList/presFormat/1003
+      :uri: http://rdaregistry.info/termList/presFormat/1003
+      :term: Circarama
+    - :id: http://rdaregistry.info/termList/presFormat/1004
+      :uri: http://rdaregistry.info/termList/presFormat/1004
+      :term: IMAX
+    - :id: http://rdaregistry.info/termList/presFormat/1005
+      :uri: http://rdaregistry.info/termList/presFormat/1005
+      :term: multiprojector
+    - :id: http://rdaregistry.info/termList/presFormat/1006
+      :uri: http://rdaregistry.info/termList/presFormat/1006
+      :term: multiscreen
+    - :id: http://rdaregistry.info/termList/presFormat/1007
+      :uri: http://rdaregistry.info/termList/presFormat/1007
+      :term: Panavision
+    - :id: http://rdaregistry.info/termList/presFormat/1008
+      :uri: http://rdaregistry.info/termList/presFormat/1008
+      :term: standard silent aperture
+    - :id: http://rdaregistry.info/termList/presFormat/1009
+      :uri: http://rdaregistry.info/termList/presFormat/1009
+      :term: standard sound aperture
+    - :id: http://rdaregistry.info/termList/presFormat/1010
+      :uri: http://rdaregistry.info/termList/presFormat/1010
+      :term: stereoscopic
+    - :id: http://rdaregistry.info/termList/presFormat/1011
+      :uri: http://rdaregistry.info/termList/presFormat/1011
+      :term: Techniscope
