@@ -6,12 +6,12 @@
   "term": {
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
-      "@type":    "IriTemplate",
+      "@type": "IriTemplate",
       "template": "http://id.worldcat.org/fast/{term_id}.rdf.xml",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
-          "@type":    "IriTemplateMapping",
+          "@type": "IriTemplateMapping",
           "variable": "term_id",
           "property": "hydra:freetextQuery",
           "required": true
@@ -23,17 +23,17 @@
     },
     "term_id": "ID",
     "results": {
-      "id_ldpath":       "dcterms:identifier ::xsd:string",
-      "label_ldpath":    "skos:prefLabel ::xsd:string",
+      "id_ldpath": "dcterms:identifier ::xsd:string",
+      "label_ldpath": "skos:prefLabel ::xsd:string",
       "altlabel_ldpath": "skos:altLabel ::xsd:string",
-      "sameas_ldpath":   "rdfs:sameAs ::xsd:anyURI"
+      "sameas_ldpath": "rdfs:sameAs ::xsd:anyURI"
     }
   },
   "search": {
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "http://experimental.worldcat.org/fast/search?query={subauth}+all+%22{query}%22&sortKeys=usage&maximumRecords={maxRecords}",
+      "template": "http://fast.oclc.org/search?httpAccept={httpAccept}&recordSchema={recordSchema}&query={subauth}+all+%22{query}%22&maximumRecords={maxRecords}&sortKeys={sortKeys}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -56,36 +56,52 @@
           "property": "hydra:freetextQuery",
           "required": false,
           "default": "20"
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "httpAccept",
+          "property": "hydra:freetextQuery",
+          "required": false,
+          "default": "application/rdf+xml"
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "recordSchema",
+          "property": "hydra:freetextQuery",
+          "required": false,
+          "default": "info:srw/schema/1/rdf-v2.0"
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "sortKeys",
+          "property": "hydra:freetextQuery",
+          "required": false,
+          "default": "usage+desc"
         }
       ]
     },
     "qa_replacement_patterns": {
-      "query":   "query",
+      "query": "query",
       "subauth": "subauth"
     },
     "results": {
-      "id_ldpath":    "dcterms:identifier ::xsd:string",
+      "id_ldpath": "dcterms:identifier ::xsd:string",
       "label_ldpath": "skos:prefLabel ::xsd:string",
-      "sort_ldpath":  "skos:prefLabel ::xsd:string"
+      "sort_ldpath": "skos:prefLabel ::xsd:string"
     },
     "subauthorities": {
-      "topic":          "oclc.topic",
-      "concept":        "oclc.topic",
+      "topic": "oclc.topic",
       "geocoordinates": "oclc.geographic",
-      "geographic":     "oclc.geographic",
-      "place":          "oclc.geographic",
-      "event":          "oclc.eventName",
-      "event_name":     "oclc.eventName",
-      "meeting":        "oclc.meeting",
-      "person":         "oclc.personalName",
-      "personal_name":  "oclc.personalName",
-      "organization":   "oclc.corporateName",
+      "geographic": "oclc.geographic",
+      "event_name": "oclc.eventName",
+      "person": "oclc.personalName",
+      "personal_name": "oclc.personalName",
+      "organization": "oclc.corporateName",
       "corporate_name": "oclc.corporateName",
-      "uniform_title":  "oclc.uniformTitle",
-      "work":           "oclc.uniformTitle",
-      "period":         "oclc.period",
-      "form":           "oclc.form",
-      "alt_lc":         "oclc.altlc"
+      "uniform_title": "oclc.uniformTitle",
+      "period": "oclc.period",
+      "form": "oclc.form",
+      "alt_lc": "oclc.altlc"
     }
   }
 }
